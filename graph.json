@@ -48,7 +48,7 @@
     {"source": 5, "target": 44},
     {"source": 5, "target": 45},
     {"source": 5, "target": 46},
-    {"source": 5, "target": 47}],
+    {"source": 5, "target": 46}],
   "nodes": [
     {"size": 60, "score": 1, "id": "Origins", "type": "square"},
     {"size": 60, "score": 1, "id": "Sea Power", "type": "square"},
