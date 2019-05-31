@@ -55,7 +55,7 @@
     {"size": 60, "score": 1, "id": "Ocean History", "type": "square", "url": "http://globalocean-humanculture-2019.webflow.io/"},
     {"size": 60, "score": 1, "id": "Early Migrations", "type": "square", "url": "http://globalocean-humanculture-2019.webflow.io/"},
     {"size": 60, "score": 1, "id": "Art and the Ocean", "type": "square", "url": "http://globalocean-humanculture-2019.webflow.io/"},
-    {"size": 60, "score": 1, "id": "Natural Hazards", "type": "Square", "url": "http://globalocean-humanculture-2019.webflow.io/"}, 
+    {"size": 60, "score": 1, "id": "Natural Hazards", "type": "square", "url": "http://globalocean-humanculture-2019.webflow.io/"}, 
     {"size": 10, "score": 0.4, "id": "Big Bang", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "Nucleosynthesis", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "Plate Tectonics", "type": "circle"},
