@@ -51,7 +51,7 @@
     {"source": 5, "target": 46}],
   "nodes": [
     {"size": 60, "score": 1, "id": "Origins", "type": "square"},
-    {"size": 60, "score": 1, "id": "Sea Power", "type": "square", "url": "https://www.washington.edu/news/2018/12/13/new-underwater-sensors-for-sea-life/"},
+    {"size": 60, "score": 1, "id": "Sea Power", "type": "square", "url": "http://globalocean-humanculture-2019.webflow.io/"},
     {"size": 60, "score": 1, "id": "Ocean History", "type": "square"},
     {"size": 60, "score": 1, "id": "Early Migrations", "type": "square"},
     {"size": 60, "score": 1, "id": "Art and the Ocean", "type": "square"},
