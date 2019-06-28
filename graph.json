@@ -88,7 +88,7 @@
     {"size": 10, "score": 0.4, "id": "La Mer Debussey", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "'Tectonics' Ted Kooser", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "Victory at Sea R. Rogers", "type": "circle"},
-    {"size": 10, "score": 0.4, "id": "'The Odyssey' Homer", "type": "circle"},
+    {"size": 10, "score": 0.4, "id": "'The Odyssey' Homer", "type": "circle", "url": "https://en.wikipedia.org/wiki/Odyssey"},
     {"size": 10, "score": 0.4, "id": "Ocean Acidification", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "Hurricanes", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "Submarine Mass Wasting", "type": "circle"},
