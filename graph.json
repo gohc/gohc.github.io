@@ -92,7 +92,7 @@
     {"size": 10, "score": 0.4, "id": "Ocean Acidification", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "Hurricanes", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "Submarine Mass Wasting", "type": "circle"},
-    {"size": 10, "score": 0.4, "id": "Earthquakes", "type": "circle"},
+    {"size": 10, "score": 0.4, "id": "Earthquakes", "type": "circle", "url": "https://earthquake.usgs.gov/earthquakes/"},
     {"size": 10, "score": 0.4, "id": "Plastics in Ocean", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "Tsunamis", "type": "circle"},
     {"size": 10, "score": 0.4, "id": "Acoustic Noise", "type": "circle"},
