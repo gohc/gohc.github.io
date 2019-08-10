@@ -4,12 +4,18 @@
     body {
         overflow: hidden;
         margin: 0;
+        font-size: 14px;
     }
 
     text {
         font-family: sans-serif;
         pointer-events: none;
     }
+    .description.square {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
 
 </style>
 <body>
@@ -41,14 +47,21 @@
         .range([8, 24]);
 
     var force = d3.layout.force()
-        .linkDistance(60)
+        .linkDistance(function(link) {
+            switch(link.target.type) {
+                case 'square':
+                    return 300;
+                case 'circle':
+                    return 100;
+            }
+        })
         .charge(-300)
         .size([w, h]);
 
     var default_node_color = "#ccc";
     //var default_node_color = "rgb(3,190,100)";
     var default_link_color = "#888";
-    var nominal_base_node_size = 8;
+    var nominal_base_node_size = 14;
     var nominal_text_size = 10;
     var max_text_size = 24;
     var nominal_stroke = 1.5;
@@ -95,6 +108,18 @@
                 else return default_link_color;
             })
 
+        function getNodeType(node, baseClass) {
+            let nodeClass = baseClass + ' ';
+            switch(node.type) {
+                case 'square':
+                    nodeClass += 'square';
+                    break;
+                case 'circle':
+                    nodeClass += 'circle';
+                    break;
+            }
+            return nodeClass
+        }
 
         var node = g.selectAll(".node")
             .data(graph.nodes)
@@ -108,7 +133,7 @@
                     return url.href;
                 }
             })
-            .attr("class", "node")
+            .attr("class", function(node) { return getNodeType(node, 'node') })
             .call(force.drag);
 
 
@@ -132,7 +157,7 @@
         var circle = node.append("path")
             .attr("d", d3.svg.symbol()
                 .size(function (d) {
-                    return Math.PI * Math.pow(size(d.size) || nominal_base_node_size, 2);
+                    return Math.PI * Math.pow(size(d.size), 2);
                 })
                 .type(function (d) {
                     return d.type;
@@ -142,7 +167,7 @@
                 if (isNumber(d.score) && d.score >= 0) return color(d.score);
                 else return default_node_color;
             })
-            //.attr("r", function(d) { return size(d.size)||nominal_base_node_size; })
+            // .attr("r", function(d) { return size(d.size)||nominal_base_node_size; })
             .style("stroke-width", nominal_stroke)
             .style(towhite, "white");
 
@@ -151,7 +176,7 @@
             .data(graph.nodes)
             .enter().append("text")
             .attr("dy", ".35em")
-            .style("font-size", nominal_text_size + "px");
+            .attr("class", function(node) { return getNodeType(node, 'description') });
 
         if (text_center)
             text.text(function (d) {
@@ -200,7 +225,9 @@
                 svg.style("cursor", "move");
                 if (highlight_color != "white") {
                     circle.style(towhite, "white");
-                    text.style("font-weight", "normal");
+                    text.style("font-weight", function(node){
+                        return node.type === 'square' ? 'bold' : 'normal';
+                    });
                     link.style("stroke", function (o) {
                         return (isNumber(o.score) && o.score >= 0) ? color(o.score) : default_link_color
                     });
