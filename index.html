@@ -302,7 +302,6 @@
 
             var text_size = nominal_text_size;
             if (nominal_text_size * zoom.scale() > max_text_size) text_size = max_text_size / zoom.scale();
-            text.style("font-size", text_size + "px");
 
             g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
         });
