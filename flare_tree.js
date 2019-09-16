@@ -56,15 +56,20 @@ function update(source) {
         .attr("class", "node")
         .attr("transform", function (d) {
             return "translate(" + source.y0 + "," + source.x0 + ")";
-        })
-        .on("click", function (d) {
-            toggle(d);
-            update(d);
         });
 
-    nodeEnter.append("svg:circle");
+    nodeEnter.append("svg:circle")
+    .on("click", function (d) {
+        toggle(d);
+        update(d);
+    });
 
-    nodeEnter.append("svg:text")
+    nodeEnter.append("a")
+        .attr("href", function(d){
+            return d.url;
+        })
+        .attr("target", "_blank")
+        .append("svg:text")
         .attr("dx", function (d) {
             return d.children || d._children ? "-1.25em" : "1.25em"
         })
