@@ -59,10 +59,18 @@ function update(source) {
         });
 
     nodeEnter.append("svg:circle")
-    .on("click", function (d) {
-        toggle(d);
-        update(d);
-    });
+        .on("click", function (d) {
+            toggle(d);
+            update(d);
+        })
+        .on("mouseover", function(d){
+            if (d.children || d._children) {
+                d3.select(this).classed('mouseover', true);
+            }
+        })
+        .on("mouseout", function(d){
+            d3.select(this).classed('mouseover', false);
+        });
 
     nodeEnter.append("a")
         .attr("href", function(d){
@@ -91,8 +99,8 @@ function update(source) {
 
     nodeUpdate.select("circle")
         .attr("r", "0.75em")
-        .style("fill", function (d) {
-            return d._children ? "lightsteelblue" : "#fff";
+        .attr("class", function (d) {
+            return d._children ? "with-children" : "";
         });
 
     nodeUpdate.select("text")
