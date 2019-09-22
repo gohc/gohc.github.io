@@ -1,0 +1,376 @@
+{
+  "name": "GOHC",
+  "url": "http://globalocean-humanculture-2019.webflow.io/",
+  "children": [
+    {
+      "name": "Origins",
+      "url": "http://globalocean-humanculture-2019.webflow.io/",
+      "children": [
+        {
+          "name": "Big Bang & Nucleansynthesis",
+          "url": "http://"
+        },
+        {
+          "name": "Galaxies and Black Holes",
+          "url": "http://"
+        },
+        {
+          "name": "Solar Systems",
+          "url": "http://"
+        },
+        {
+          "name": "Planets",
+          "url": "http://"
+        },
+        {
+          "name": "Oceans",
+          "url": "http://"
+        },
+        {
+          "name": "Plate Tectonics",
+          "url": "http://"
+        },
+        {
+          "name": "Origin of Life",
+          "url": "http://"
+        },
+        {
+          "name": "Evolution of Life",
+          "url": "http://"
+        }
+      ]
+    },
+    {
+      "name": "Dynamic Ocean",
+      "url": "http://globalocean-humanculture-2019.webflow.io/",
+      "children": [
+        {
+          "name": "Physics of Water",
+          "url": "http://"
+        },
+        {
+          "name": "Thermo-Haline Circulation",
+          "url": "http://"
+        },
+        {
+          "name": "Coriolis",
+          "url": "http://"
+        },
+        {
+          "name": "Gyres",
+          "url": "http://"
+        },
+        {
+          "name": "Primary Productivity",
+          "url": "http://"
+        },
+        {
+          "name": "Secondary Productivity",
+          "url": "http://"
+        },
+        {
+          "name": "Atmosphere-Ocean Coupling",
+          "url": "http://"
+        },
+        {
+          "name": "Chemical Exchanges",
+          "url": "http://"
+        },
+        {
+          "name": "Climate Change",
+          "url": "http://"
+        }
+      ]
+    },
+    {
+      "name": "Art of the Ocean",
+      "url": "http://globalocean-humanculture-2019.webflow.io/",
+      "children": [
+        {
+          "name": "Cinema/Film/Video",
+          "url": "http://"
+        },
+        {
+          "name": "Literature and Philosophy",
+          "url": "http://",
+          "children": [
+            {
+              "name": "Sea Power - Satvridis",
+              "url": "http://"
+            },
+            {
+              "name": "kkkk - S. Pinker",
+              "url": "http://"
+            },
+            {
+              "name": "Sapiens and Homo Deus - Y. Harari",
+              "url": "http://"
+            },
+            {
+              "name": "Singularity is coming - Ray Kurzweil",
+              "url": "http://"
+            },
+            {
+              "name": "The Sea - D. Abulafia",
+              "url": "http://"
+            },
+            {
+              "name": "Soul of the Sea Stone",
+              "url": "http://"
+            },
+            {
+              "name": "Monsoon",
+              "url": "http://"
+            },
+            {
+              "name": "Cauldron of the Pacific",
+              "url": "http://"
+            },
+            {
+              "name": "Big History",
+              "url": "http://"
+            },
+            {
+              "name": "The Sea and Civilization",
+              "url": "http://"
+            },
+            {
+              "name": "Mediterranean - F. Braudel",
+              "url": "http://"
+            }
+          ]
+        },
+        {
+          "name": "Poetry",
+          "url": "http://",
+          "children": [
+            {
+              "name": "Leaves of Grass - W. Whitman",
+              "url": "http://"
+            },
+            {
+              "name": "Tectonics - Ted Kooser",
+              "url": "http://"
+            },
+            {
+              "name": "Sea Drift-Leaves of Grass - W. Whitman",
+              "url": "http://"
+            },
+            {
+              "name": "On the Oregon Cloast - Galway Kinnel",
+              "url": "http://"
+            },
+            {
+              "name": "Fathom and League - Michael Collier",
+              "url": "http://"
+            },
+            {
+              "name": "Omeros - Derek Walcott",
+              "url": "http://"
+            },
+            {
+              "name": "The Odyssey - Homer",
+              "url": "http://"
+            },
+            {
+              "name": "It is Born - Naruda",
+              "url": "http://"
+            }
+          ]
+        },
+        {
+          "name": "Music",
+          "url": "http://"
+        },
+        {
+          "name": "Mythologies",
+          "url": "http://"
+        },
+        {
+          "name": "Fiction",
+          "url": "http://",
+          "children": [
+            {
+              "name": "Starmaker - Olaf Stapledon",
+              "url": "http://"
+            },
+            {
+              "name": "Circe - Madeline Miller",
+              "url": "http://"
+            },
+            {
+              "name": "20,000 Leagues under the Sea",
+              "url": "http://"
+            },
+            {
+              "name": "Kane Mutiny",
+              "url": "http://"
+            },
+            {
+              "name": "Perelandia - C.S. Lewis",
+              "url": "http://"
+            },
+            {
+              "name": "One Whale Singing - Keri Hume",
+              "url": "http://"
+            },
+            {
+              "name": "Sea Captain's Wife - Beth Downing",
+              "url": "http://"
+            },
+            {
+              "name": "Old Man and the Sea - E. Hemingway",
+              "url": "http://"
+            },
+            {
+              "name": "Moby Dick - H. Melvilee",
+              "url": "http://"
+            },
+            {
+              "name": "Door into Ocean - J. Slonczeuzel",
+              "url": "http://"
+            }
+          ]
+        },
+        {
+          "name": "Sculpture and Painting",
+          "url": "http://"
+        },
+        {
+          "name": "Science",
+          "url": "http://"
+        }
+      ]
+    },
+    {
+      "name": "Sea Power",
+      "url": "http://globalocean-humanculture-2019.webflow.io/",
+      "children": [
+        {
+          "name": "Black Powder Canons",
+          "url": "http://"
+        },
+        {
+          "name": "Fire Arrows",
+          "url": "http://"
+        },
+        {
+          "name": "Sail vs Rowing",
+          "url": "http://"
+        },
+        {
+          "name": "Aircraft Carriers",
+          "url": "http://"
+        },
+        {
+          "name": "Rowing and Impact",
+          "url": "http://"
+        },
+        {
+          "name": "Seam vs Sail",
+          "url": "http://"
+        },
+        {
+          "name": "Nuclear Submarines",
+          "url": "http://"
+        },
+        {
+          "name": "Nuclear Submarines",
+          "url": "http://"
+        },
+        {
+          "name": "Greek Fire",
+          "url": "http://"
+        }
+      ]
+    },
+    {
+      "name": "Natural Hazards",
+      "url": "https://storymaps.arcgis.com/stories/c8561b1f16864ff3908a840f82b0097d",
+      "children": [
+        {
+          "name": "Hurricanes",
+          "url": "http://"
+        },
+        {
+          "name": "Sea Level Change",
+          "url": "http://"
+        },
+        {
+          "name": "Submarine Mass Wasting",
+          "url": "http://"
+        },
+        {
+          "name": "Earthquakes",
+          "url": "https://earthquake.usgs.gov/earthquakes/"
+        },
+        {
+          "name": "Volcanoes",
+          "url": "http://"
+        },
+        {
+          "name": "Tsunamis",
+          "url": "http://"
+        },
+        {
+          "name": "Ocean Deoxygenation",
+          "url": "http://"
+        },
+        {
+          "name": "Asteroids",
+          "url": "http://"
+        },
+        {
+          "name": "Coastal Erosion",
+          "url": "http://"
+        },
+        {
+          "name": "El Nino La Nina",
+          "url": "http://"
+        }
+      ]
+    },
+    {
+      "name": "Ocean Technology",
+      "url": "http://globalocean-humanculture-2019.webflow.io/",
+      "children": [
+        {
+          "name": "Optical/Acoustic Comms",
+          "url": "http://"
+        },
+        {
+          "name": "Moore's Law",
+          "url": "http://"
+        },
+        {
+          "name": "Kurzweil Views",
+          "url": "http://"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "url": "http://"
+        },
+        {
+          "name": "Nanotech",
+          "url": "http://"
+        },
+        {
+          "name": "Genomic Revolution",
+          "url": "http://"
+        },
+        {
+          "name": "Marine Robotic Future",
+          "url": "http://"
+        },
+        {
+          "name": "Orgobots Beyond Earth",
+          "url": "http://"
+        },
+        {
+          "name": "Multisensor AI-dominated Submersibles",
+          "url": "http://"
+        }
+      ]
+    }
+  ]
+}

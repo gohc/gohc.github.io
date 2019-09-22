@@ -1,0 +1,37 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica;
+}
+
+.node circle {
+    fill: steelblue;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+    border-radius: 50%;
+    width: 20rem;
+}
+
+.node circle.with-children {
+    fill: green;
+}
+
+.node circle.mouseover {
+    cursor: pointer;
+}
+
+.node text {
+    font-size: 1.2rem;
+}
+
+a:hover text {
+  text-decoration: underline !important;
+}
+
+path.link, .link {
+    fill: none;
+    stroke: #b0b0b0;
+    stroke-width: 1px;
+}
+
