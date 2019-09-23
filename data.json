@@ -180,11 +180,91 @@
         },
         {
           "name": "Music",
-          "url": "http://"
+          "url": "http://",
+          "children": [
+            {
+              "name": "Brendan Voyage - Shaun Davey",
+              "url": "http://"
+            },
+            {
+              "name": "Vltava The Moldau - Smetana",
+              "url": "http://"
+            },
+            {
+              "name": "50 Sea-Inspired Classical Pieces",
+              "url": "http://"
+            },
+            {
+              "name": "Victory at Sea - Richard Roges",
+              "url": "http://"
+            },
+            {
+              "name": "San Juan Suite - Michael Gettel",
+              "url": "http://"
+            },
+            {
+              "name": "And God Created Great Whales - Hovhannes",
+              "url": "http://"
+            },
+            {
+              "name": "Sea Symphony - Vaughn Williams",
+              "url": "http://"
+            },
+            {
+              "name": "La Mer - Claude Debussy",
+              "url": "http://"
+            }
+          ]
         },
         {
           "name": "Mythologies",
-          "url": "http://"
+          "url": "http://",
+          "children": [
+            {
+              "name": "Celtic Stories",
+              "url": "http://"
+            },
+            {
+              "name": "People pf the Sea - D. Thompson",
+              "url": "http://"
+            },
+            {
+              "name": "Inuit Sedna",
+              "url": "http://"
+            },
+            {
+              "name": "Greek Gods Poseidon",
+              "url": "http://"
+            },
+            {
+              "name": "Adventures of Ulysses",
+              "url": "http://"
+            },
+            {
+              "name": "Whale and Thunder Bird - Indigenous West Coast",
+              "url": "http://"
+            },
+            {
+              "name": "Jason and Argonauts",
+              "url": "http://"
+            },
+            {
+              "name": "Brendan Voyage",
+              "url": "http://"
+            },
+            {
+              "name": "Biblical Flood",
+              "url": "http://"
+            },
+            {
+              "name": "Norse Legends",
+              "url": "http://"
+            },
+            {
+              "name": "Water spirits, Kelpies, Selkies, Mermaids, MenDragons",
+              "url": "http://"
+            }
+          ]
         },
         {
           "name": "Fiction",
@@ -234,7 +314,45 @@
         },
         {
           "name": "Sculpture and Painting",
-          "url": "http://"
+          "url": "http://",
+          "children": [
+            {
+              "name": "Gulf Stream - Winslow Homer",
+              "url": "http://"
+            },
+            {
+              "name": "Naiads at play - A. Bocklin",
+              "url": "http://"
+            },
+            {
+              "name": "Jason deCaires Taylor",
+              "url": "http://"
+            },
+            {
+              "name": "The Oarsmen - Henri Josset",
+              "url": "http://"
+            },
+            {
+              "name": "Birth of Aphrodite",
+              "url": "http://"
+            },
+            {
+              "name": "Port of Marseilles - P. Signac",
+              "url": "http://"
+            },
+            {
+              "name": "Inuit Art",
+              "url": "http://"
+            },
+            {
+              "name": "Great Wave - Hokusai",
+              "url": "http://"
+            },
+            {
+              "name": "Ninth Wave",
+              "url": "http://"
+            }
+          ]
         },
         {
           "name": "Science",
