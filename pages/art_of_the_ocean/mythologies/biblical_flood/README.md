@@ -1,5 +1,3 @@
-[Back to GOHC tree](https://gohc.github.io/)
-
 # Biblical Flood
 
 ![foo](https://upload.wikimedia.org/wikipedia/commons/a/a8/Francis_Danby_deluge.jpg)
