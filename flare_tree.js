@@ -32,7 +32,8 @@ d3.json("data.json", function (json) {
 
     // Initialize the display to show a few nodes.
     root.children.forEach(toggleAll);
-    toggle(root.children);
+    // toggle(root.children);
+    toggle(root)
 
     update(root);
 });
@@ -160,7 +161,7 @@ function update(source) {
 
 // Toggle children.
 function toggle(d) {
-    if (d.name === "GOHC") { return }
+    // if (d.name === "GOHC") { return }
     if (d.children) {
         d._children = d.children;
         d.children = null;
