@@ -1,0 +1,5 @@
+# Brendan Voyage
+
+#### [Brendan Voyage](http://www.taramusic.com/sleevenotes/cd3006.htm)  - by Shaun Davey
+
+"The critical and popular success of The Brendan Voyage was as ground-breaking as the music itself. Over the years its power as a single, self-contained suite for Uilleann pipes, Orchestra and Rhythm Section has remained undiminished while the progress of the Celtic Music Renaissance has confirmed not only its author's visionary genius but the status of this one work as an absolute cornerstone for so many subsequent developments. Subsequent years have seen others paint on the pallet of Davey's dream, but in my view there is still only one master of the form. Regularly lauded as a populist with integrity, a visionary, a serious artist, an unsung hero at the very dawn of the current Celtic music explosion, Shaun Davey is all of these things and more..." Colin Harper, Q Magazine, August 1997

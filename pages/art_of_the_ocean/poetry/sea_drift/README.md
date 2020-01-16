@@ -1,0 +1,7 @@
+# Sea Drift
+
+#### within Leaves of Grass - by W. Whitman
+A captivating aspect of the Sea Drift Cluster, added later to Leaves of Grass,  is the impact it had on Musicians & Composers - at least 4 major pieces of classical music were inspired by Whitman’s later works on the ocean, including Sea Symphony by Ralph Vaugh Williams, first performed in 1910.
+
+"While "Sea-Drift" is often pointed to as a pivotal cluster in Leaves of Grass, very few readings closely analyze the entire series of poems. Central to such a reading, and to the debate about the relationship of the cluster to the whole of Leaves of Grass, is the question of the poetic voice (or voices) described in the cluster, and especially in "Out of the Cradle" (the first poem in the cluster). Because in "Out of the Cradle" Whitman offers a variety of voices that often conflate into one another, critics generally suggest that the boy-poet at the end of his dramatic encounter with the sea is the same as the mature poet who speaks the opening lines and understands the immortal nature of the human soul." - [Whitman Archive](https://whitmanarchive.org/criticism/current/encyclopedia/entry_650.html)
+- [Poems of the sea by Walt Whitman](https://www.goodreads.com/book/show/46032008-sea-drift-poems-of-the-sea-by-walt-whitman)
