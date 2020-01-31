@@ -88,7 +88,37 @@
       "children": [
         {
           "name": "Cinema/Film/Video",
-          "url": "http://"
+          "url": "http://",
+          "children": [
+            {
+              "name": "Fear and Wonder",
+              "url": "http://"
+            },
+            {
+              "name": "Conquest and Expedition",
+              "url": "http://"
+            },
+            {
+              "name": "Children and Adults",
+              "url": "http://"
+            },
+            {
+              "name": "On Earth and Off Planet Oceans",
+              "url": "http://"
+            },
+            {
+              "name": "Destroy and Nurture",
+              "url": "http://"
+            },
+            {
+              "name": "Colors of the Ocean",
+              "url": "http://"
+            },
+            {
+              "name": "Underwater film",
+              "url": "http://"
+            }
+          ]
         },
         {
           "name": "Literature and Philosophy",
