@@ -221,47 +221,31 @@
           "url": "http://",
           "children": [
             {
-              "name": "Europe",
+              "name": "Gods",
               "url": "http://"
             },
             {
-              "name": "South America",
+              "name": "Monsters",
               "url": "http://"
             },
             {
-              "name": "North America",
+              "name": "Heroes",
               "url": "http://"
             },
             {
-              "name": "Africa",
+              "name": "Journeys",
               "url": "http://"
             },
             {
-              "name": "Asia",
+              "name": "Creation Stories",
               "url": "http://"
             },
             {
-              "name": "Island Cultures",
+              "name": "Disasters",
               "url": "http://"
             },
             {
-              "name": "Jason and Argonauts",
-              "url": "http://"
-            },
-            {
-              "name": "Brendan Voyage",
-              "url": "http://"
-            },
-            {
-              "name": "Biblical Flood",
-              "url": "http://gohc.github.io/pages/art_of_the_ocean/mythologies/biblical_flood/README.html"
-            },
-            {
-              "name": "Norse Legends",
-              "url": "http://gohc.github.io/pages/art_of_the_ocean/mythologies/norse_legends/README.html"
-            },
-            {
-              "name": "Water spirits, Kelpies, Selkies, Mermaids, MenDragons",
+              "name": "Historical Mysticism",
               "url": "http://"
             }
           ]
