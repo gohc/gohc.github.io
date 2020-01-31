@@ -89,10 +89,6 @@
         {
           "name": "Cinema/Film/Video",
           "url": "http://"
-          "children": [
-            {
-              "name": "Finding Nemo",
-              "url": "http://"
         },
         {
           "name": "Literature and Philosophy",
