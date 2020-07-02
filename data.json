@@ -130,7 +130,16 @@
             },
             {
               "name": "Children and Adults",
-              "url": "http://"
+              "url": "http://",
+              "children": [
+                {
+                  "name": "Nemo",
+                  "url": "http://"
+                },
+                {"name": "Happy Feet",
+                  "url": "http://"
+                }
+              ]
             },
             {
               "name": "On Earth and Off Planet Oceans",
@@ -145,15 +154,21 @@
                 },
                 {"name": "Europa Report & Interstellar",
                   "url": "http://"
-                },
-                {"name": "Avatar & Alien",
-                  "url": "http://"
                 }
               ]
             },
             {
               "name": "Destroy and Nurture",
-              "url": "http://"
+              "url": "http://",
+              "children": [
+                {
+                  "name": "Lighthouse of Orcas",
+                  "url": "http://"
+                },
+                {"name": "The Perfect Storm",
+                  "url": "http://"
+                }
+              ]
             },
             {
               "name": "Colors of the Ocean",
