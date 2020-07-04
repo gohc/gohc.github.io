@@ -1,4 +1,9 @@
-<iframe width="420" height="315" src="https://www.youtube.com/embed/1FEvv8hgkO4"> </iframe>
+# Volcanoes
+1FEvv8hgkO4
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=1FEvv8hgkO4
+" target="_blank"><img src="http://img.youtube.com/vi/1FEvv8hgkO4/0.jpg" 
+alt="Volcano Eruption Hawaii" width="420" height="315" border="25" /></a>
 
 A volcano is a [rupture](https://en.wikipedia.org/wiki/Fracture#Ductile_fracture) in the [crust](https://en.wikipedia.org/wiki/Crust_(geology) of a [planetary-mass object](https://en.wikipedia.org/wiki/Planet#Planetary-mass_objects), such as [Earth](https://en.wikipedia.org/wiki/Earth), that allows hot [lava](https://en.wikipedia.org/wiki/Lava), [volcanic ash](https://en.wikipedia.org/wiki/Volcanic_ash), and [gases](https://en.wikipedia.org/wiki/Volcanic_gas) to escape from a [magma chamber](https://en.wikipedia.org/wiki/Magma_chamber) below the surface.
 
