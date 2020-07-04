@@ -1,4 +1,4 @@
-# The Life Cycle of Stars -
+# The Life Cycle of Stars - 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=PM9CQDlQI0A
 " target="_blank"><img src="http://img.youtube.com/vi/PM9CQDlQI0A/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="420" height="315" border="10" /></a>
