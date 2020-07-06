@@ -161,7 +161,7 @@ function update(source) {
 
 // Toggle children.
 function toggle(d) {
-    // if (d.name === "GOHC") { return }
+    if (d.name === "GOHC") { return }
     if (d.children) {
         d._children = d.children;
         d.children = null;
