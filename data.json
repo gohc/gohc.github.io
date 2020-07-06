@@ -4,272 +4,208 @@
   "children": [
     {
       "name": "Origins",
-      "url": "http://globalocean-humanculture-2019.webflow.io/",
       "children": [
         {
           "name": "Big Bang & Nucleansynthesis",
           "url": "https://www.ted.com/talks/david_christian_big_history?language=en"
         },
         {
-          "name": "Galaxies and Black Holes",
-          "url": "http://"
+          "name": "Galaxies and Black Holes"
         },
         {
-          "name": "Solar Systems",
-          "url": "http://"
+          "name": "Solar Systems"
         },
         {
-          "name": "Planets",
-          "url": "http://"
+          "name": "Planets"
         },
         {
-          "name": "Oceans",
-          "url": "http://"
+          "name": "Oceans"
         },
         {
-          "name": "Plate Tectonics",
-          "url": "http://"
+          "name": "Plate Tectonics"
         },
         {
-          "name": "Origin of Life",
-          "url": "http://"
+          "name": "Origin of Life"
+
         },
         {
-          "name": "Evolution of Life",
-          "url": "http://"
+          "name": "Evolution of Life"
         }
       ]
     },
     {
       "name": "Dynamic Ocean",
-      "url": "http://globalocean-humanculture-2019.webflow.io/",
       "children": [
         {
-          "name": "Physics of Water",
-          "url": "http://"
+          "name": "Physics of Water"
         },
         {
-          "name": "Thermo-Haline Circulation",
-          "url": "http://"
+          "name": "Thermo-Haline Circulation"
         },
         {
-          "name": "Coriolis",
-          "url": "http://"
+          "name": "Coriolis"
         },
         {
-          "name": "Gyres",
-          "url": "http://"
+          "name": "Gyres"
         },
         {
-          "name": "Primary Productivity",
-          "url": "http://"
+          "name": "Primary Productivity"
         },
         {
-          "name": "Secondary Productivity",
-          "url": "http://"
+          "name": "Secondary Productivity"
         },
         {
-          "name": "Atmosphere-Ocean Coupling",
-          "url": "http://"
+          "name": "Atmosphere-Ocean Coupling"
         },
         {
-          "name": "Chemical Exchanges",
-          "url": "http://"
+          "name": "Chemical Exchanges"
         },
         {
-          "name": "Climate Change",
-          "url": "http://"
+          "name": "Climate Change"
         }
       ]
     },
     {
       "name": "Art of the Ocean",
-      "url": "http://globalocean-humanculture-2019.webflow.io/",
       "children": [
         {
           "name": "Cinema/Film/Video",
-          "url": "http://",
           "children": [
             {
               "name": "Fear and Wonder",
-              "url": "http://",
               "children": [
                 {
-                  "name": "Jaws",
-                  "url": "http://"
+                  "name": "Jaws"
                 },
-                {"name": "Life Aquatic with Steve Zissou",
-                  "url": "http://"
+                {"name": "Life Aquatic with Steve Zissou"
                 },
-                {"name": "Ponyo",
-                  "url": "http://"
+                {"name": "Ponyo"
                 },
-                {"name": "20 000 Leagues Under the Sea",
-                  "url": "http://"
+                {"name": "20 000 Leagues Under the Sea"
                 }
               ]
             },
             {
               "name": "Conquest and Expedition",
-              "url": "http://",
                "children": [
                 {
-                  "name": "Master and Commander",
-                  "url": "http://"
+                  "name": "Master and Commander"
                 },
-                {"name": "Kon-Tiki",
-                  "url": "http://"
+                {"name": "Kon-Tiki"
                 },
-                {"name": "Life of Pi",
-                  "url": "http://"
+                {"name": "Life of Pi"
                 },
-                {"name": "In the Heart of the Sea",
-                  "url": "http://"
+                {"name": "In the Heart of the Sea"
                 }
               ]
             },
             {
               "name": "Children and Adults",
-              "url": "http://",
               "children": [
                 {
-                  "name": "Nemo",
-                  "url": "http://"
+                  "name": "Nemo"
                 },
-                {"name": "Happy Feet",
-                  "url": "http://"
+                {"name": "Happy Feet"
                 }
               ]
             },
             {
               "name": "On Earth and Off Planet Oceans",
-              "url": "http://",
               "children": [
                 {
-                  "name": "Sphere",
-                  "url": "http://"
+                  "name": "Sphere"
                 },
-                {"name": "Abyss",
-                  "url": "http://"
+                {"name": "Abyss"
                 },
-                {"name": "Europa Report & Interstellar",
-                  "url": "http://"
+                {"name": "Europa Report & Interstellar"
                 }
               ]
             },
             {
               "name": "Destroy and Nurture",
-              "url": "http://",
               "children": [
                 {
-                  "name": "Lighthouse of Orcas",
-                  "url": "http://"
+                  "name": "Lighthouse of Orcas"
                 },
-                {"name": "The Perfect Storm",
-                  "url": "http://"
+                {"name": "The Perfect Storm"
                 }
               ]
             },
             {
               "name": "Colors of the Ocean",
-              "url": "http://",
               "children": [
                 {
-                  "name": "Wes Anderson",
-                  "url": "http://"
+                  "name": "Wes Anderson"
                 },
-                {"name": "Guillermo del Toro",
-                  "url": "http://"
+                {"name": "Guillermo del Toro"
                 },
-                {"name": "James Cameron",
-                  "url": "http://"
+                {"name": "James Cameron"
                 },
-                {"name": "Avatar & Alien",
-                  "url": "http://"
+                {"name": "Avatar & Alien"
                 }
               ]
             },
             {
               "name": "Underwater film",
-              "url": "http://",
               "children": [
                 {
-                  "name": "A Silent World",
-                  "url": "http://"
+                  "name": "A Silent World"
                 },
-                {"name": "Blue Planet Series",
-                  "url": "http://"
+                {"name": "Blue Planet Series"
                 },
-                {"name": "Blackfish",
-                  "url": "http://"
+                {"name": "Blackfish"
                 },
-                {"name": "Chasing Coral ",
-                  "url": "http://"
+                {"name": "Chasing Coral "
                 },
-                {"name": "Aliens of the Deep",
-                  "url": "http://"
+                {"name": "Aliens of the Deep"
                 }
               ]
             },
             {
-              "name": "Moving Pictures",
-              "url": "http://"
+              "name": "Moving Pictures"
             }
           ]
         },
         {
           "name": "Literature and Philosophy",
-          "url": "http://",
           "children": [
             {
-              "name": "Sea Power - Satvridis",
-              "url": "http://"
+              "name": "Sea Power - Satvridis"
             },
             {
-              "name": "kkkk - S. Pinker",
-              "url": "http://"
+              "name": "kkkk - S. Pinker"
             },
             {
-              "name": "Sapiens and Homo Deus - Y. Harari",
-              "url": "http://"
+              "name": "Sapiens and Homo Deus - Y. Harari"
             },
             {
-              "name": "Singularity is coming - Ray Kurzweil",
-              "url": "http://"
+              "name": "Singularity is coming - Ray Kurzweil"
             },
             {
-              "name": "The Sea - D. Abulafia",
-              "url": "http://"
+              "name": "The Sea - D. Abulafia"
             },
             {
-              "name": "Soul of the Sea Stone",
-              "url": "http://"
+              "name": "Soul of the Sea Stone"
             },
             {
-              "name": "Monsoon",
-              "url": "http://"
+              "name": "Monsoon"
             },
             {
-              "name": "Cauldron of the Pacific",
-              "url": "http://"
+              "name": "Cauldron of the Pacific"
             },
             {
-              "name": "Big History",
-              "url": "http://"
+              "name": "Big History"
             },
             {
-              "name": "The Sea and Civilization",
-              "url": "http://"
+              "name": "The Sea and Civilization"
             },
             {
-              "name": "Mediterranean - F. Braudel",
-              "url": "http://"
+              "name": "Mediterranean - F. Braudel"
             }
           ]
         },
         {
           "name": "Poetry",
-          "url": "http://",
           "children": [
             {
               "name": "Leaves of Grass - W. Whitman",
@@ -307,7 +243,6 @@
         },
         {
           "name": "Music",
-          "url": "http://",
           "children": [
             {
               "name": "Brendan Voyage - Shaun Davey",
@@ -345,171 +280,131 @@
         },
         {
           "name": "Mythologies",
-          "url": "http://",
           "children": [
             {
-              "name": "Gods",
-              "url": "http://"
+              "name": "Gods"
             },
             {
-              "name": "Monsters",
-              "url": "http://"
+              "name": "Monsters"
             },
             {
-              "name": "Heroes",
-              "url": "http://"
+              "name": "Heroes"
             },
             {
-              "name": "Journeys",
-              "url": "http://"
+              "name": "Journeys"
             },
             {
-              "name": "Creation Stories",
-              "url": "http://"
+              "name": "Creation Stories"
             },
             {
-              "name": "Disasters",
-              "url": "http://"
+              "name": "Disasters"
             },
             {
-              "name": "Historical Mysticism",
-              "url": "http://"
+              "name": "Historical Mysticism"
             }
           ]
         },
         {
           "name": "Fiction",
-          "url": "http://",
           "children": [
             {
-              "name": "Starmaker - Olaf Stapledon",
-              "url": "http://"
+              "name": "Starmaker - Olaf Stapledon"
             },
             {
-              "name": "Circe - Madeline Miller",
-              "url": "http://"
+              "name": "Circe - Madeline Miller"
             },
             {
-              "name": "20,000 Leagues under the Sea",
-              "url": "http://"
+              "name": "20,000 Leagues under the Sea"
             },
             {
-              "name": "Kane Mutiny",
-              "url": "http://"
+              "name": "Kane Mutiny"
             },
             {
-              "name": "Perelandia - C.S. Lewis",
-              "url": "http://"
+              "name": "Perelandia - C.S. Lewis"
             },
             {
-              "name": "One Whale Singing - Keri Hume",
-              "url": "http://"
+              "name": "One Whale Singing - Keri Hume"
             },
             {
-              "name": "Sea Captain's Wife - Beth Downing",
-              "url": "http://"
+              "name": "Sea Captain's Wife - Beth Downing"
             },
             {
-              "name": "Old Man and the Sea - E. Hemingway",
-              "url": "http://"
+              "name": "Old Man and the Sea - E. Hemingway"
             },
             {
-              "name": "Moby Dick - H. Melvilee",
-              "url": "http://"
+              "name": "Moby Dick - H. Melvilee"
             },
             {
-              "name": "Door into Ocean - J. Slonczeuzel",
-              "url": "http://"
+              "name": "Door into Ocean - J. Slonczeuzel"
             }
           ]
         },
         {
           "name": "Sculpture and Painting",
-          "url": "http://",
           "children": [
             {
-              "name": "Gulf Stream - Winslow Homer",
-              "url": "http://"
+              "name": "Gulf Stream - Winslow Homer"
             },
             {
-              "name": "Naiads at play - A. Bocklin",
-              "url": "http://"
+              "name": "Naiads at play - A. Bocklin"
             },
             {
-              "name": "Jason deCaires Taylor",
-              "url": "http://"
+              "name": "Jason deCaires Taylor"
             },
             {
-              "name": "The Oarsmen - Henri Josset",
-              "url": "http://"
+              "name": "The Oarsmen - Henri Josset"
             },
             {
-              "name": "Birth of Aphrodite",
-              "url": "http://"
+              "name": "Birth of Aphrodite"
             },
             {
-              "name": "Port of Marseilles - P. Signac",
-              "url": "http://"
+              "name": "Port of Marseilles - P. Signac"
             },
             {
-              "name": "Inuit Art",
-              "url": "http://"
+              "name": "Inuit Art"
             },
             {
-              "name": "Great Wave - Hokusai",
-              "url": "http://"
+              "name": "Great Wave - Hokusai"
             },
             {
-              "name": "Ninth Wave",
-              "url": "http://"
+              "name": "Ninth Wave"
             }
           ]
         },
         {
-          "name": "Science",
-          "url": "http://"
+          "name": "Science"
         }
       ]
     },
     {
       "name": "Sea Power",
-      "url": "http://globalocean-humanculture-2019.webflow.io/",
       "children": [
         {
-          "name": "Black Powder Canons",
-          "url": "http://"
+          "name": "Black Powder Canons"
         },
         {
-          "name": "Fire Arrows",
-          "url": "http://"
+          "name": "Fire Arrows"
         },
         {
-          "name": "Sail vs Rowing",
-          "url": "http://"
+          "name": "Sail vs Rowing"
         },
         {
-          "name": "Aircraft Carriers",
-          "url": "http://"
+          "name": "Aircraft Carriers"
         },
         {
-          "name": "Rowing and Impact",
-          "url": "http://"
+          "name": "Rowing and Impact"
         },
         {
-          "name": "Seam vs Sail",
-          "url": "http://"
+          "name": "Seam vs Sail"
         },
         {
-          "name": "Nuclear Submarines",
-          "url": "http://"
+          "name": "Nuclear Submarines"
         },
         {
-          "name": "Nuclear Submarines",
-          "url": "http://"
+          "name": "Nuclear Submarines"
         },
         {
-          "name": "Greek Fire",
-          "url": "http://"
+          "name": "Greek Fire"
         }
       ]
     },
@@ -518,86 +413,69 @@
       "url": "https://storymaps.arcgis.com/stories/c8561b1f16864ff3908a840f82b0097d",
       "children": [
         {
-          "name": "Hurricanes",
-          "url": "http://"
+          "name": "Hurricanes"
         },
         {
-          "name": "Sea Level Change",
-          "url": "http://"
+          "name": "Sea Level Change"
         },
         {
-          "name": "Submarine Mass Wasting",
-          "url": "http://"
+          "name": "Submarine Mass Wasting"
         },
         {
           "name": "Earthquakes",
           "url": "https://earthquake.usgs.gov/earthquakes/"
         },
         {
-          "name": "Volcanoes",
-          "url": "http://"
+          "name": "Volcanoes"
         },
         {
           "name": "Tsunamis",
           "url": "https://github.com/gohc/gohc.github.io/pages/natural_hazards/volcanoes/README.md"
         },
         {
-          "name": "Ocean Deoxygenation",
-          "url": "http://"
+          "name": "Ocean Deoxygenation"
         },
         {
-          "name": "Asteroids",
-          "url": "http://"
+          "name": "Asteroids"
         },
         {
-          "name": "Coastal Erosion",
-          "url": "http://"
+          "name": "Coastal Erosion"
         },
         {
-          "name": "El Nino La Nina",
-          "url": "http://"
+          "name": "El Nino La Nina"
         }
       ]
     },
     {
       "name": "Exponential Change",
-      "url": "http://globalocean-humanculture-2019.webflow.io/",
       "children": [
         {
-          "name": "Optical/Acoustic Comms",
-          "url": "http://"
+          "name": "Optical/Acoustic Comms"
         },
         {
-          "name": "Moore's Law",
-          "url": "http://"
+          "name": "Moore's Law"
         },
         {
-          "name": "Kurzweil Views",
-          "url": "http://"
+          "name": "Kurzweil Views"
         },
         {
-          "name": "Artificial Intelligence",
-          "url": "http://"
+          "name": "Artificial Intelligence"
         },
         {
-          "name": "Nanotech",
-          "url": "http://"
+          "name": "Nanotech"
         },
         {
-          "name": "Genomic Revolution",
-          "url": "http://"
+          "name": "Genomic Revolution"
         },
         {
           "name": "Marine Robotic Future",
           "url": "http://gohc.github.io/pages/exponential_change/marine_robotic_future/README.html"
         },
         {
-          "name": "Orgobots Beyond Earth",
-          "url": "http://"
+          "name": "Orgobots Beyond Earth"
         },
         {
-          "name": "Multisensor AI-dominated Submersibles",
-          "url": "http://"
+          "name": "Multisensor AI-dominated Submersibles"
         }
       ]
     }
