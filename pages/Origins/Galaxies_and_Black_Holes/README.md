@@ -3,6 +3,7 @@ Galaxies are vast cosmic island of stars, gas, dust, and dark matter held togeth
 
 ### What kinds of Galaxies are there?
 ![image](https://drive.google.com/file/d/1-M3XxdrxOionz8Ctx9iypd3brQkw7e50/view?usp=sharing)
+![image](https://drive.google.com/uc?export=view&id=<1-M3XxdrxOionz8Ctx9iypd3brQkw7e50>)
 For an illustrative description of Galaxies go to the Hubblesite link below to find explanations of the Types of Galaxies, Dark Matter, Galaxy Collisions and Galaxy Formation.   https://hubblesite.org/science/galaxies#:~:text=Galaxies%20are%20vast%20cosmic%20islands,groups%2C%20or%20within%20immense%20clusters.
   
 ### Black Holes - 
