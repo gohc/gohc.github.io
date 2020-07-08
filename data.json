@@ -422,16 +422,13 @@
           "name": "Submarine Mass Wasting"
         },
         {
-          "name": "Earthquakes",
-          "url": "https://storymaps.arcgis.com/stories/f98e7091ec9f4de6abd792796737c66d"
+          "name": "Earthquakes"
         },
         {
-          "name": "Volcanoes",
-          "url": "https://github.com/gohc/gohc.github.io/pages/natural_hazards/volcanoes/README.html"
+          "name": "Volcanoes"
         },
         {
-          "name": "Tsunamis",
-          "url": "https://github.com/gohc/gohc.github.io/pages/natural_hazards/volcanoes/README.md"
+          "name": "Tsunamis"
         },
         {
           "name": "Ocean Deoxygenation"
