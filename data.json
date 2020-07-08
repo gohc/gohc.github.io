@@ -282,29 +282,100 @@
           "name": "Mythologies",
           "children": [
             {
-              "name": "Gods"
+              "name": "Gods",
+              "children": [
+                {
+                  "name": "Varun"
+                },
+                {
+                  "name": "Oceanus"
+                },
+                {
+                  "name": "Alignak"
+                },
+                {
+                  "name": "Neptune/Poseidon"
+                },
+                {
+                  "name": "Atargatis"
+               }
+              ]
             },
             {
-              "name": "Monsters"
+              "name": "Monsters and Spirits",
+              "children": [
+                {
+                  "name": "Rusalka"
+                },
+                {
+                  "name": "Panlong"
+                },
+                {
+                  "name": "Charybdis and Scylla"
+                },
+                {
+                  "name": "Kraken"
+                },
+                {
+                  "name": "Jengu"
+                }
+              ]
             },
             {
               "name": "Heroes"
             },
             {
-              "name": "Journeys"
+              "name": "Journeys",
+              "children": [
+                {
+                  "name": "Jason and the Argonauts"
+                },
+                {
+                  "name": "The Odyssey"
+                }
+              ]
             },
             {
-              "name": "Creation Stories"
+              "name": "Creation Stories",
+              "children": [
+                {
+                  "name": "Iroquois Creation Myth"
+                },
+                {
+                  "name": "Polynesian Creation Myth"
+                }
+              ]
             },
             {
-              "name": "Disasters"
+              "name": "Disasters",
+              "children": [
+                {
+                  "name": "Atlantis"
+                },
+                {
+                  "name": "Noah's Ark and the Great Flood"
+                }
+              ]
             },
             {
-              "name": "Historical Mysticism"
+              "name": "Historical Mysticism",
+              "children": [
+                {
+                  "name": "Th Erebus and The Terror"
+                },
+                {
+                  "name": "The Titanic"
+                },
+                {
+                  "name": "The Bermuda Triangle"
+                },
+                {
+                  "name": "The Flying Dutchman"
+               }
+              ]
             }
           ]
         },
-        {
           "name": "Fiction",
           "children": [
             {
