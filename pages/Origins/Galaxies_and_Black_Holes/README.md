@@ -12,6 +12,8 @@ A black hole is a region of space where the pulling force of gravity is so stron
 The black hole named Cygnus X-1 (below) formed when a large star caved in.  This black hole tulles matter from the blue star beside it - Credits: NAS/CXC/M.Weiss
 Black Holes are Explained by National Geographic with this introductory video below.
 
+![image](https://drive.google.com/uc?export=view&id=14u8z4UxKUxPQR1ZGvfgwKFAUIl6bGYBg)
+
 ### Galactic Seeds
 Every large galaxy in the universe is likely ‘anchored’ to a central supermassive [black hole](https://en.wikipedia.org/wiki/Black_hole).  Deciphering the ways in which those anchors pirouette could offer clues to how they, and their host galaxies formed  and evolved over the age of the Universe.
 “One of the things we don’t know is how supermassive black holes form,” says William Alston of Cambridge University, “ What are the seeds of these in the early universe? Most of our models currently predict seeds that are too small, and they can’t grow quick enough.”
