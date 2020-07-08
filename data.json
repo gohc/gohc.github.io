@@ -425,7 +425,8 @@
           "name": "Earthquakes"
         },
         {
-          "name": "Volcanoes"
+          "name": "Volcanoes",
+          "url": "http://gohc.github.io/pages/natural_hazards/volcanoes/README.html
         },
         {
           "name": "Tsunamis"
