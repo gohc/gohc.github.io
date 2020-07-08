@@ -2,7 +2,7 @@
 Galaxies are vast cosmic island of stars, gas, dust, and dark matter held together by gravity.  Edwin Hubble’s keen eye has revealed intricate details of the shapes, structures, and histories of galaxies - whether alone,, as part of small groups, or within immense clusters.  From supermassive black holes at galactic centers, to giant burts of star formation to titanic collisions between galaxies, these discoveries allow astronomers to prob the current properties of galaxies as well as examine how they formed and develop over time.
 
 ### What kinds of Galaxies are there?
-![image](https://drive.google.com/uc?export=view&id=<1-M3XxdrxOionz8Ctx9iypd3brQkw7e50)
+![image](https://drive.google.com/file/d/1-M3XxdrxOionz8Ctx9iypd3brQkw7e50/view?usp=sharing)
 For an illustrative description of Galaxies go to the Hubblesite link below to find explanations of the Types of Galaxies, Dark Matter, Galaxy Collisions and Galaxy Formation.   https://hubblesite.org/science/galaxies#:~:text=Galaxies%20are%20vast%20cosmic%20islands,groups%2C%20or%20within%20immense%20clusters.
   
 ### Black Holes - 
