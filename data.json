@@ -376,7 +376,7 @@
             }
           ]
         },
-          "name": "Fiction",
+        {"name": "Fiction",
           "children": [
             {
               "name": "Starmaker - Olaf Stapledon"
