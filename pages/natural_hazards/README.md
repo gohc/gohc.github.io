@@ -1,4 +1,4 @@
-# Natural hazards-
+# Natural Hazards-
 
 including earthquakes, tsunamis, volcanic eruptions, landslides, hurricanes, droughts, floods, wildfires, geomagnetic storms, and pandemics—can wreak havoc on human communities, the economy, and natural resources for years following an initial event. Hazards can claim lives and cause billions of dollars in damage to homes and infrastructure as well as lost or compromised economic activity and threats to national security. They also can have adverse environmental, social, economic, and health effects that extend well beyond the immediate area, sometimes with global implications. Changes in population growth, climate, and urbanization may exacerbate hazard impacts.
 
