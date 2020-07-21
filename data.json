@@ -175,37 +175,55 @@
           "name": "Literature and Philosophy",
           "children": [
             {
-              "name": "Sea Power - Satvridis"
+              "name": "Ocean Power and How It Shapes Us",
+              "children": [
+                {
+                  "name": "Sea Power - Stavridis"
+                },
+                {
+                  "name": "The Boundless Sea - D. Abulafia (2020)"
+                },
+                {
+                  "name": "The Sea and Civilization – Lincoln Paine (2015)"
+                },
+                {
+                  "name": "Big History"
+                }
+              ]
             },
             {
-              "name": "kkkk - S. Pinker"
+              "name": "Where Are We Going?",
+              "children": [
+                {
+                  "name": "Enlightenment Now - Steven Pinker (2018)"
+                },
+                {
+                  "name": "Sapiens and Homo Deus - Yuval Harari (2011,2015)"
+                },
+                {
+                  "name": "Singularity is coming - Ray Kurzweil (2005)"
+                }
+              ]
             },
             {
-              "name": "Sapiens and Homo Deus - Y. Harari"
+              "name": "Controlling and Sharing Resources",
+              "children": [
+                {
+                  "name": "Asia's Cauldron - Robert D. Kaplan (2014)"
+                },
+                {
+                  "name": "The Mediterranean - F. Braudel (1996)"
+                },
+                {
+                  "name": "Monsoon - Robert D. Kaplan (2010)"
+                }
+              ]
             },
             {
-              "name": "Singularity is coming - Ray Kurzweil"
-            },
-            {
-              "name": "The Sea - D. Abulafia"
-            },
-            {
-              "name": "Soul of the Sea Stone"
-            },
-            {
-              "name": "Monsoon"
-            },
-            {
-              "name": "Cauldron of the Pacific"
-            },
-            {
-              "name": "Big History"
-            },
-            {
-              "name": "The Sea and Civilization"
-            },
-            {
-              "name": "Mediterranean - F. Braudel"
+              "name": "Conservation and Management",
+              "children": [
+                {
+                  "name": "The Soul of the Sea- Gregory Stone and Nishan Degnarain (2017)"
             }
           ]
         },
