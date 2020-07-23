@@ -1,5 +1,5 @@
 # Galaxies and Black Holes
-Galaxies are vast cosmic island of stars, gas, dust, and dark matter held together by gravity.  Edwin Hubble’s keen eye has revealed intricate details of the shapes, structures, and histories of galaxies - whether alone,, as part of small groups, or within immense clusters.  From supermassive black holes at galactic centers, to giant burts of star formation to titanic collisions between galaxies, these discoveries allow astronomers to prob the current properties of galaxies as well as examine how they formed and develop over time.
+Galaxies are vast cosmic island of stars, gas, dust, and dark matter held together by gravity.  Edwin Hubble’s keen eye has revealed intricate details of the shapes, structures, and histories of galaxies - whether alone,, as part of small groups, or within immense clusters.  From supermassive black holes at galactic centers, to giant burts of star formation to titanic collisions between galaxies, these discoveries allow astronomers to prob the current properties of galaxies as well as examine how they formed and develop over time.The constancy of the speed of light means that we see distant galaxies as they existed millions to billions of years ago, allowing astronomers to reconstruct galaxy evolution.
 
 ### What kinds of Galaxies are there?
 
