@@ -404,34 +404,51 @@
         {"name": "Fiction",
           "children": [
             {
-              "name": "Starmaker - Olaf Stapledon"
+              "name": "Discovering Our Own Oceans",
+              "children": [
+                {
+                  "name": "20,000 Leagues Under the Sea – Jules Verne (1870)"
+                }
+              ]
             },
             {
-              "name": "Circe - Madeline Miller"
+              "name": "Man and Marine Inhabitants",
+              "children": [
+                {
+                  "name": "One Whale Singing - Keri Hume (1985)"
+                },
+                {
+                  "name": "Moby Dick - Herman Melville (1851)"
+                }
+              ]
             },
             {
-              "name": "20,000 Leagues under the Sea"
+              "name": "Distant Oceans",
+              "children": [
+                {
+                  "name": "Perelandra - C.S. Lewis (1943)"
+                },
+                {
+                  "name": "Perelandra - C.S. Lewis (1943)"
+                },
+                {
+                  "name": "Starmaker – Olaf Stapledon (1937)"
+                }
+              ]
             },
             {
-              "name": "Kane Mutiny"
-            },
-            {
-              "name": "Perelandia - C.S. Lewis"
-            },
-            {
-              "name": "One Whale Singing - Keri Hume"
-            },
-            {
-              "name": "Sea Captain's Wife - Beth Downing"
-            },
-            {
-              "name": "Old Man and the Sea - E. Hemingway"
-            },
-            {
-              "name": "Moby Dick - H. Melvilee"
-            },
-            {
-              "name": "Door into Ocean - J. Slonczeuzel"
+              "name": "Life at Sea",
+              "children": [
+                {
+                  "name": "Old Man and the Sea - Ernest Hemingway (1955)"
+                },
+                {
+                  "The Caine Mutiny – Herman Wouk (1951)"
+                },
+                {
+                  "name": "Sea Captain's Wife - Beth Powning (2010)"
+                }
+              ]
             }
           ]
         },
