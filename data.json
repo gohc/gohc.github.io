@@ -319,6 +319,9 @@
                   "name": "Alignak"
                 },
                 {
+                  "name": "Oshun and Yemaya"
+                },
+                {
                   "name": "Neptune/Poseidon"
                 },
                 {
@@ -336,7 +339,13 @@
                   "name": "Panlong"
                 },
                 {
+                  "name": "Inkanyamba"
+                },
+                {
                   "name": "Charybdis and Scylla"
+                },
+                {
+                  "name": "Namazu"
                 },
                 {
                   "name": "Kraken"
@@ -347,8 +356,20 @@
               ]
             },
             {
-              "name": "Heroes"
+              "name": "Heroes",
+              "children": [
+                {
+                  "name": "Maui"
+                },
+                {
+                  "name": "Urashima Taro"
+                },
+                {
+                  "name": "Beowolf"
+                }
+              ]
             },
+
             {
               "name": "Journeys",
               "children": [
@@ -356,7 +377,13 @@
                   "name": "Jason and the Argonauts"
                 },
                 {
+                  "name": "Tikta'Liktak"
+                },
+                {
                   "name": "The Odyssey"
+                },
+                {
+                  "name": "Paikea, The Whale Rider"
                 }
               ]
             },
@@ -365,6 +392,18 @@
               "children": [
                 {
                   "name": "Iroquois Creation Myth"
+                },
+                {
+                  "name": "Japanese Creation Myth"
+                },
+                {
+                  "name": "Mangoroa and the Milky Way"
+                },
+                {
+                  "name": "Sedna the Sea Goddess"
+                },
+                {
+                  "name": "Ile Ife Kingdom"
                 },
                 {
                   "name": "Polynesian Creation Myth"
@@ -376,6 +415,12 @@
               "children": [
                 {
                   "name": "Atlantis"
+                },
+                {
+                  "name": "Ayahos, Thunderbird and Whale"
+                },
+                {
+                  "name": "Tanovo and Nabukelevu"
                 },
                 {
                   "name": "Noah's Ark and the Great Flood"
@@ -393,6 +438,12 @@
                 },
                 {
                   "name": "The Bermuda Triangle"
+                },
+                {
+                  "name": "Lemuria"
+                },
+                {
+                  "name": "Captain Cook and Aboriginal Myth"
                 },
                 {
                   "name": "The Flying Dutchman"
