@@ -81,6 +81,7 @@
               "children": [
                 {
                   "name": "Jaws"
+                  "url": "https://storymaps.arcgis.com/stories/ab4bd2ee3bc24346897ee9ad91541a68"
                 },
                 {"name": "Life Aquatic with Steve Zissou"
                 },
@@ -320,6 +321,7 @@
                 },
                 {
                   "name": "Oshun and Yemaya"
+                  "url": "https://storymaps.arcgis.com/stories/130966b99af24069ad0fb62fda44c365"
                 },
                 {
                   "name": "Neptune/Poseidon"
@@ -529,6 +531,7 @@
             },
             {
               "name": "Great Wave - Hokusai"
+              "url": "https://storymaps.arcgis.com/stories/6f547ccba310458791246bbd8090acbf"
             },
             {
               "name": "Ninth Wave"
