@@ -6,12 +6,7 @@ var m = [20, 120, 20, 120],
 
 var tree = d3.layout.tree()
     .size([h, w]);
-    //other test code here//
-    tree.nodeSize([20, 40])
-    //.separation(function(a, b) {
-            //return (a.parent == b.parent ? 1 : 1.5);
-        //});
-    //end test//
+    
 var diagonal = d3.svg.diagonal()
     .projection(function (d) {
         return [d.y, d.x];
@@ -77,17 +72,13 @@ function update(source) {
         .on("mouseout", function(d){
             d3.select(this).classed('mouseover', false);
         });
-    //Test Code, text separation
 
     nodeEnter.append("a")
         .attr("href", function(d){
             return d.url;
         })
         .attr("target", "_blank")
-        //Test Code, text separation
-        .append("svg:text") .attr("x", function(d) { 
-       return d.children || d._children ? -20 : 20;
-   })
+        
         //.attr("dx", function (d) {
          //   return d.children || d._children ? "-1.25em" : "1.25em"
         //})
