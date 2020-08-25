@@ -81,7 +81,7 @@ function update(source) {
         .attr("target", "_blank")
         //Test Code, text separation
         .append("svg:text") .attr("x", function(d) { 
-       return d.children || d._children ? -13 : 13;
+       return d.children || d._children ? -20 : 20;
    })
         //.attr("dx", function (d) {
          //   return d.children || d._children ? "-1.25em" : "1.25em"
