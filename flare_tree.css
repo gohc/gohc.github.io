@@ -1,6 +1,6 @@
 /*Branching Matrix*/
 body {
-    overflow: hidden;
+    overflow: scroll;
     margin: 0;
     font-size: 12px;
     font-family: "Helvetica Neue", Helvetica;
