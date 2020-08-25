@@ -6,7 +6,12 @@ var m = [20, 120, 20, 120],
 
 var tree = d3.layout.tree()
     .size([h, w]);
-
+    //other test code here//
+    tree.nodeSize([70, 40])
+    .separation(function(a, b) {
+            return (a.parent == b.parent ? 1 : 1.5);
+        });
+    //end test//
 var diagonal = d3.svg.diagonal()
     .projection(function (d) {
         return [d.y, d.x];
