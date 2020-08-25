@@ -6,7 +6,7 @@ var m = [20, 120, 20, 120],
 
 var tree = d3.layout.tree()
     .size([h, w]);
-    
+
 var diagonal = d3.svg.diagonal()
     .projection(function (d) {
         return [d.y, d.x];
@@ -78,10 +78,10 @@ function update(source) {
             return d.url;
         })
         .attr("target", "_blank")
-        
-        //.attr("dx", function (d) {
-         //   return d.children || d._children ? "-1.25em" : "1.25em"
-        //})
+        .append("svg:text")
+        .attr("dx", function (d) {
+            return d.children || d._children ? "-1.25em" : "1.25em"
+        })
         .attr("dy", ".35em")
         .attr("text-anchor", function (d) {
             return d.children || d._children ? "end" : "start";
