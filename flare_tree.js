@@ -72,16 +72,20 @@ function update(source) {
         .on("mouseout", function(d){
             d3.select(this).classed('mouseover', false);
         });
+    //Test Code, text separation
 
     nodeEnter.append("a")
         .attr("href", function(d){
             return d.url;
         })
         .attr("target", "_blank")
-        .append("svg:text")
-        .attr("dx", function (d) {
-            return d.children || d._children ? "-1.25em" : "1.25em"
-        })
+        //Test Code, text separation
+        .append("svg:text") .attr("x", function(d) { 
+       return d.children || d._children ? -13 : 13;
+   })
+        //.attr("dx", function (d) {
+         //   return d.children || d._children ? "-1.25em" : "1.25em"
+        //})
         .attr("dy", ".35em")
         .attr("text-anchor", function (d) {
             return d.children || d._children ? "end" : "start";
