@@ -87,5 +87,28 @@ path.link, .link {
       color:  #F4D03F ;
 
   }
+  /*SubPages*/
+  .prose{
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica;
+    overflow: hidden;
+    text-align:center;
+  }
+  h1{
+    background-color: #21618C ;
+    overflow: hidden;
+    text-align:center;
+    color: #F4D03F;
+    font-size: 35px;
+    font-family: "Helvetica Neue", Helvetica;
+  }
+  h2{
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica;
+    overflow: hidden;
+    text-align:center;
+    color: #21618C;
+  }
+
  
   
