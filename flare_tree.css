@@ -1,3 +1,4 @@
+/*Branching Matrix*/
 body {
     overflow: hidden;
     margin: 0;
@@ -35,32 +36,51 @@ path.link, .link {
     stroke: #b0b0b0;
     stroke-width: 1px;
 }
-
+/*Webpage*/
 /* Add a black background color to the top navigation */
-.topnav {
-    background-color: #1A5276;
+.welcomebar {
+    background-color: #21618C ;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
+  /* Change the color of links on hover */
+  .navigate a:hover {
+    background-color: #F4D03F;
+    color: #2E86C1 ;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+  
+  /* Override color of visited link*/
+   a:visited {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+  a:focus {
+    text-decoration: none;
+    color: #2E86C1;
+  }
+
+   /* Style the links inside the navigation bar */
+  li {
+    display: inline-block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    
   }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: #1A5276;
+  /* Page centering */
+  ol{
+    text-align: center;  
   }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #F4D03F;
-    color: steelblue;
+  /* GOHC styling */
+  .pagetitle li{
+      font-size: 35px;
+      color:  #F4D03F;
+
   }
+ 
   
