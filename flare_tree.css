@@ -57,11 +57,15 @@ path.link, .link {
   }
   
   /* Override color of visited link*/
-   a:visited {
+  a:link {
     text-decoration: none;
     color: #f2f2f2;
   }
-  a:focus {
+  a:visited {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+   a:focus {
     text-decoration: none;
     color: #2E86C1;
   }
