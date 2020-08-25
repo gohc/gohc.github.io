@@ -16,7 +16,7 @@ body {
 }
 
 .node circle.with-children {
-    fill: green;
+    fill: #D35400 ;
 }
 
 .node circle.mouseover {
