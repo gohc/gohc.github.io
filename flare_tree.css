@@ -4,19 +4,20 @@ body {
     margin: 0;
     font-size: 12px;
     font-family: "Helvetica Neue", Helvetica;
+    background-color: #AED6F1 ;
 }
 
 
 .node circle {
-    fill: steelblue;
-    stroke: steelblue;
+    fill: #F4D03F;
+    stroke: #FDFEFE;
     stroke-width: 1.5px;
     border-radius: 50%;
     width: 20rem;
 }
 
 .node circle.with-children {
-    fill: #D35400 ;
+    fill: #154360 ;
 }
 
 .node circle.mouseover {
@@ -79,7 +80,7 @@ path.link, .link {
   /* GOHC styling */
   .pagetitle li{
       font-size: 35px;
-      color:  #D35400 ;
+      color:  #F4D03F ;
 
   }
  
