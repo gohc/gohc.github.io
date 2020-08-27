@@ -1,3 +1,4 @@
+
 var m = [20, 120, 20, 120],
     w = 1280 - m[1] - m[3],
     h = 600 - m[0] - m[2],
@@ -81,7 +82,7 @@ function update(source) {
         .append("svg:text")
         //test code, 2 lines below
         .attr("x", function(d) { 
-            return d.children || d._children ? -20 : 20; })
+            return d.children || d._children ? -13 : 13; })
         .attr("dx", function (d) {
             return d.children || d._children ? "-1.25em" : "1.25em"
         })
