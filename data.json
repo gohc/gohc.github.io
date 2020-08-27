@@ -460,7 +460,8 @@
               "name": "Discovering Our Own Oceans",
               "children": [
                 {
-                  "name": "20,000 Leagues Under the Sea – Jules Verne (1870)"
+                  "name": "20,000 Leagues Under the Sea – Jules Verne (1870)",
+              "url": "https://storymaps.arcgis.com/stories/8fd9f22cda3543ecab3642e610343feb"
                 }
               ]
             },
@@ -471,7 +472,8 @@
                   "name": "One Whale Singing - Keri Hume (1985)"
                 },
                 {
-                  "name": "Moby Dick - Herman Melville (1851)"
+                  "name": "Moby Dick - Herman Melville (1851)",
+              "url": "https://storymaps.arcgis.com/stories/634e0d97f53542bc8432ff521e8eaf20"
                 }
               ]
             },
@@ -509,7 +511,8 @@
           "name": "Sculpture and Painting",
           "children": [
             {
-              "name": "Gulf Stream - Winslow Homer"
+              "name": "Gulf Stream - Winslow Homer",
+              "url": "https://storymaps.arcgis.com/stories/544933d2984f48f5ad172a4c63fa3436"
             },
             {
               "name": "Naiads at play - A. Bocklin"
