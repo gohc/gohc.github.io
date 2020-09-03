@@ -85,7 +85,8 @@
                 },
                 {"name": "Life Aquatic with Steve Zissou"
                 },
-                {"name": "Ponyo"
+                {"name": "Ponyo",
+                  "url": "https://storymaps.arcgis.com/stories/76c28e69181d476e83daedb9ce378ecb"
                 },
                 {"name": "20 000 Leagues Under the Sea"
                 }
@@ -139,6 +140,7 @@
             },
             {
               "name": "Colors of the Ocean",
+              "url": "https://storymaps.arcgis.com/stories/32df7177ef4b427b9ce9a3580697c619",
               "children": [
                 {
                   "name": "Wes Anderson"
