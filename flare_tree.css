@@ -49,8 +49,7 @@ path.link, .link {
   }
   
   /* Change the color of links on hover */
-  .navigate a:hover {
-    background-color: #F4D03F;
+  .goal {
     color: #2E86C1 ;
     text-decoration: none;
     padding: 14px 16px;
