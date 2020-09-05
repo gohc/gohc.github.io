@@ -50,9 +50,11 @@ path.link, .link {
   
   /* Change the color of links on hover */
   .goal {
-    color: #2E86C1 ;
+    color: #F4D03F  ;
     text-decoration: none;
     padding: 14px 16px;
+    font-size: 16px;
+    
   }
   
   /* Override color of visited link*/
