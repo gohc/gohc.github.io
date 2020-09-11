@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    margin: 20px 40px;
+   }
+   #mainbox{
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .6s;
+    color: #21618C;
+    position:fixed;
+    background-color: #F4D03F ;
+   }
+.sidemenu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: #21618C ;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all .5s;
+   }
+.sidemenu a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #F4D03F;
+    display: block;
+   }
+   .sidemenu a:hover{
+     color: white;
+   }
+   .sidemenu .closebtn{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+   }

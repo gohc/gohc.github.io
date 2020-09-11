@@ -1,21 +1,84 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>GOHC Tree</title>
-<link type="text/css" rel="stylesheet" href="flare_tree.css"/>
 
-<div class="welcomebar">
-  <ol class="pagetitle">
-    <li href= "#name">Global Oceans Human Culture</a>
-    </ol>
-  <ol class="navigate">
-    <li>
-      <a class="active" href="#home">Sharing the Oceans Through the Lens of Human Experience</a>
-    </li>
-  </ol>
-</div>
+<link type="text/css" rel="stylesheet" href="title_style.css"/>
+  <div class="sample-header">
+    <div class="sample-header-section">
+      <div class="name">
+        <h1>Global Oceans Human Culture</h1>
+        <h2>Sharing the Oceans Through the Lens of Human Experience</h2>
+      </div>
+    </div>
+  </div>
+  
 
-<body>
-  <div id="tree"></div>
-</body>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script src="/flare_tree.js"></script>
+
+  <div class="sample-section-wrap">
+  <body>
+    <link type="text/css" rel="stylesheet" href="bar.css"/>
+    <div id="mainbox" onclick="openFunction()">&#9776; Open</div>
+    <div id="menu" class="sidemenu">
+     <a href="#">Home</a>
+     <a href="#">About</a>
+     <a href="#">Contact</a>
+     <a href="#">Resources</a>
+     <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+   </div>
+  </body>
+    <div class="sample-section">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+        quis, sem. Nulla consequat massa quis enim. </p>
+  
+      <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
+        vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
+        ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
+  
+      <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
+        libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. </p>
+  
+      <p>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
+        mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. </p>
+  
+      <p>Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet
+        nec, imperdiet iaculis, ipsum. </p>
+  
+      <p>Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut.</p>
+  
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+        quis, sem. Nulla consequat massa quis enim. </p>
+  
+      <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
+        vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
+        ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
+    </div>
+    <div id="tree"></div>
+  </div>
+  
+
+  <script type="text/javascript">
+    function openFunction(){
+     document.getElementById("menu").style.width="300px";
+     document.getElementById("mainbox").style.marginLeft="300px";
+     document.getElementById("mainbox").innerHTML="Click on Cross Element and Close Menu";
+    }
+   function closeFunction(){
+    document.getElementById("menu").style.width="0px";
+    document.getElementById("mainbox").style.marginLeft="0px";
+    document.getElementById("mainbox").innerHTML="&#9776; Open";
+   }
+   </script>
+  <!-- <script src= "/parallax.js"></script> -->
+  
+  <link type="text/css" rel="stylesheet" href="flare_tree.css"/>
+  <script src="//d3js.org/d3.v3.min.js"></script>
+  <script src="/flare_tree.js"></script>
+
+
+
+
+
+
+
+
+
