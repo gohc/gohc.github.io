@@ -78,7 +78,7 @@ function update(source) {
         .attr("href", function(d){
             return d.url;
         })
-        .attr("target", "_blank")
+        .attr("target", "iframe")
         .append("svg:text")
         //test code, 2 lines below
         .attr("x", function(d) { 
