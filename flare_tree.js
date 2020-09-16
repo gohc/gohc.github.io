@@ -122,7 +122,7 @@ function update(source) {
     nodeExit.select("circle")
         .attr("r", 1e-6);
 
-    nodeExit.select("text")
+    nodeExit.select("text") 
         .style("fill-opacity", 1e-6);
 
     // Update the links…
