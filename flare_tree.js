@@ -105,7 +105,7 @@ function update(source) {
         .append("svg:text")
         //test code, 2 lines below
         .attr("x", function(d) { 
-            return d.children || d._children ? -13 : 13; })
+            return d.children || d._children ? 10 : -10; })
         .attr("dx", function (d) {
             return d.children || d._children ? "-1.25em" : "1.25em"
         })
