@@ -1,23 +1,30 @@
+var realWidth = window.innerWidth;
+var realHeight = window.innerHeight;
 
-var m = [20, 120, 20, 120],
-    w = 1280 - m[1] - m[3],
-    h = 800 - m[0] - m[2],
+var m = [40, 240, 40, 240],
+    w = realWidth -m[0] -m[0],
+    h = realHeight -m[0] -m[2],
     i = 0,
     root;
 
 var tree = d3.layout.tree()
     .size([h, w]);
 
-var diagonal = d3.svg.diagonal()
-    .projection(function (d) {
-        return [d.y, d.x];
-    });
 
-var vis = d3.select("div#tree").append("svg:svg")
-    .attr("width", w + m[1] + m[3])
-    .attr("height", h + m[0] + m[2])
-    .append("svg:g")
+var diagonal = d3.svg.diagonal()
+    .projection(function(d) { return [d.y, d.x]; });
+
+var vis = d3.select("#tree").append("svg:svg")
+    .attr("class","svg_container")
+    .attr("width", w)
+    .attr("height", h)
+    .style("overflow", "scroll")
+  .append("svg:g")
+    .attr("class","drawarea")
+  .append("svg:g")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+
+var botao = d3.select("#form #button");
 
 d3.json("data.json", function (json) {
     root = json;
@@ -40,8 +47,7 @@ d3.json("data.json", function (json) {
 });
 
 function update(source) {
-
-    //////////////////////
+        //////////////////////
     // Compute the new height, function counts total children of root node and sets tree height accordingly.
     // This prevents the layout looking squashed when new nodes are made visible or looking sparse when nodes are removed
     // This makes the layout more consistent.
@@ -62,20 +68,19 @@ function update(source) {
     tree = tree.size([newHeight, w]);
 
     //////////////////////////////
-
     var duration = d3.event && d3.event.altKey ? 5000 : 500;
+    
+    // Compute the new tree layout.
     var nodes = tree.nodes(root).reverse();
-
+    console.warn(nodes)
+    
     // Normalize for fixed-depth.
-    nodes.forEach(function (d) {
-        d.y = d.depth * 180;
-    });
-
+    nodes.forEach(function(d) { d.y = d.depth * 180; });
+    
+    // Update the nodes…
     var node = vis.selectAll("g.node")
-        .data(nodes, function (d) {
-            return d.id || (d.id = ++i);
-        });
-
+    .data(nodes, function(d) { return d.id || (d.id = ++i); });
+    
     // Enter any new nodes at the parent's previous position.
     var nodeEnter = node.enter().append("svg:g")
         .attr("class", "node")
@@ -102,6 +107,8 @@ function update(source) {
             return d.url;
         })
         .attr("target", "iframe")
+        //auto scrolls the iframe n pixels down
+        .attr("onclick", "window.scrollTo(0,1150)")
         .append("svg:text")
         //test code, 2 lines below
         .attr("x", function(d) { 
@@ -117,23 +124,21 @@ function update(source) {
             return d.name;
         })
         .style("fill-opacity", 1e-6);
-
+    
     // Transition nodes to their new position.
     var nodeUpdate = node.transition()
-        .duration(duration)
-        .attr("transform", function (d) {
-            return "translate(" + d.y + "," + d.x + ")";
-        });
-
+    .duration(duration)
+    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+    
     nodeUpdate.select("circle")
         .attr("r", "0.75em")
         .attr("class", function (d) {
             return d._children ? "with-children" : "";
         });
-
+    
     nodeUpdate.select("text")
-        .style("fill-opacity", 1);
-
+    .style("fill-opacity", 1);
+    
     // Transition exiting nodes to the parent's new position.
     var nodeExit = node.exit().transition()
         .duration(duration)
@@ -147,49 +152,47 @@ function update(source) {
 
     nodeExit.select("text") 
         .style("fill-opacity", 1e-6);
-
+    
     // Update the links…
     var link = vis.selectAll("path.link")
-        .data(tree.links(nodes), function (d) {
-            return d.target.id;
-        });
-
+    .data(tree.links(nodes), function(d) { return d.target.id; });
+    
     // Enter any new links at the parent's previous position.
     link.enter().insert("svg:path", "g")
-        .attr("class", "link")
-        .attr("d", function (d) {
-            var o = {x: source.x0, y: source.y0};
-            return diagonal({source: o, target: o});
-        })
-        .transition()
-        .duration(duration)
-        .attr("d", diagonal);
-
+    .attr("class", "link")
+    .attr("d", function(d) {
+        var o = {x: source.x0, y: source.y0};
+        return diagonal({source: o, target: o});
+    })
+    .transition()
+    .duration(duration)
+    .attr("d", diagonal);
+    
     // Transition links to their new position.
     link.transition()
-        .duration(duration)
-        .attr("d", diagonal);
-
+    .duration(duration)
+    .attr("d", diagonal);
+    
     // Transition exiting nodes to the parent's new position.
     link.exit().transition()
-        .duration(duration)
-        .attr("d", function (d) {
-            var o = {x: source.x, y: source.y};
-            return diagonal({source: o, target: o});
-        })
-        .remove();
-
+    .duration(duration)
+    .attr("d", function(d) {
+        var o = {x: source.x, y: source.y};
+        return diagonal({source: o, target: o});
+    })
+    .remove();
+    
     // Stash the old positions for transition.
-    nodes.forEach(function (d) {
+    nodes.forEach(function(d) {
         d.x0 = d.x;
         d.y0 = d.y;
     });
-
-//////////////////////////
+    
     d3.select("svg")
-    .call(d3.behavior.zoom()
-      .scaleExtent([0.5, 5])
-      .on("zoom", zoom));
+        .call(d3.behavior.zoom()
+              .scaleExtent([0.5, 5])
+              .on("zoom", zoom));
+    
 }
 
 // Toggle children.
@@ -203,9 +206,6 @@ function toggle(d) {
         d._children = null;
     }
 }
-
-
-// Define the zoom function for the zoomable tree
 
 function zoom() {
     var scale = d3.event.scale,
@@ -223,4 +223,3 @@ function zoom() {
         .attr("transform", "translate(" + translation + ")" +
               " scale(" + scale + ")");
 }
-

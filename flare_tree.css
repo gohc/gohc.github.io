@@ -11,6 +11,7 @@ body {
   height: 200px;
   width: 400px;
   background-color: powderblue;
+  overflow-y:auto;
 }
 
 .node circle {
@@ -45,4 +46,8 @@ path.link, .link {
     fill: none;
     stroke: #AAB7B8;
     stroke-width: 1px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
