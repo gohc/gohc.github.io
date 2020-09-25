@@ -63,6 +63,13 @@ img {
     color: #111;
     position:relative;
   }
-  
+  a { color:#F4D03F } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:#F4D03F; }
+a:hover { text-decoration: none; color:#F4D03F; }
+a:focus { text-decoration: none; color:#F4D03F; }
+a:hover, a:active { text-decoration: none; color:white }
 
   

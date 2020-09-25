@@ -5,6 +5,9 @@
 body {
   margin: 0;
 }
+h1,h2{
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
 .sample-header {
   position: top;
   left: 0;
