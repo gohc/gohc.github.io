@@ -1,5 +1,8 @@
 
-html {background-color: black;
+html {
+	background-color: black;
+	margin: 0;
+	height:100%;
 }
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -77,6 +80,7 @@ h2{
 	text-transform: uppercase;
 	transition: 0.5s;
 	font-weight: 400;
+	width: 100%;
 	
 }
 ul li a::after {
@@ -114,6 +118,36 @@ ul li a:hover::after {
   * {
     box-sizing: Border-box;
   }
+
+ .MatBut{
+	position: relative;
+    color: #FFF;
+    font-family: 'lato',sans-serif, bold;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 10px;
+	display: inline-block;
+	margin: auto;
+	width: 90%;
+	margin-top: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: rgba( 244, 208, 63, 0.4) ;
+	justify-content: center;
+	text-align: center;
+	width:100%;
+	
+ }
+
+ .MatBut:hover {
+	color: #FFF;
+	font-weight: 500;
+	justify-content: center;
+	text-align: center;
+	background: rgba( 244, 208, 63, 0.7) ;
+	width:100%;
+
+}
 
 
 /* 
