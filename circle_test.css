@@ -502,10 +502,12 @@ ul li a:hover::after {
 .circular-menu li:nth-child(8):hover div.center-section.section-8,
 .touch .circular-menu li:nth-child(8):focus div.center-section.section-8 {
 	display: block;
+	text-align: center;
 }
 
 .circular-menu li:nth-child(9) {
 	display: block;
+	
 }
 
 .circular-menu li:nth-child(9) .bg {
@@ -542,6 +544,8 @@ ul li a:hover::after {
 .animated {
 	animation-duration: 0.75s;
 	animation-fill-mode: both;
+
+	padding: 70px 0;
 }
 
 @keyframes fadeInUp {
