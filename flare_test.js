@@ -26,6 +26,27 @@ var vis = d3.select("#tree").append("svg:svg")
 
 var botao = d3.select("#form #button");
 
+// find position of element relative to document (used to find iframe) 
+// https://stackoverflow.com/questions/5598743/finding-elements-position-relative-to-the-document
+function getCoords(elem) { // crossbrowser version
+    var box = elem.getBoundingClientRect();
+
+    var body = document.body;
+    var docEl = document.documentElement;
+
+    var scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
+    var scrollLeft = window.pageXOffset || docEl.scrollLeft || body.scrollLeft;
+
+    var clientTop = docEl.clientTop || body.clientTop || 0;
+    var clientLeft = docEl.clientLeft || body.clientLeft || 0;
+
+    var top  = box.top +  scrollTop - clientTop;
+    var left = box.left + scrollLeft - clientLeft;
+
+    return { top: Math.round(top), left: Math.round(left) };
+}
+
+
 d3.json("data.json", function (json) {
     root = json;
     root.x0 = h / 2;
@@ -107,12 +128,12 @@ function update(source) {
             return d.url;
         })
         .attr("target", "iframe")
-        //auto scrolls the iframe n pixels down
+        // auto scrolls the iframe n pixels down
         // .attr("onclick", "window.scrollTo(0,1150)")
         .attr("onclick", function(d){
             if (d.url){
                 // find location of iframe in page
-                iframeLoc = document.querySelector('iframe').getBoundingClientRect().top
+                iframeLoc = getCoords(document.querySelector('iframe')).top
                 return "window.scrollTo(0, " + iframeLoc + ")";
             }
             return null;
