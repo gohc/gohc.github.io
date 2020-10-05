@@ -4,15 +4,19 @@ body, html {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
-    background-color:#14496D
+    background-color: black
   }
 
 img {
-    float:left;
     height: 300px;
     width: 300px;
-    padding: 10px;
+    margin: 10px;
 
+}
+
+p{
+  width: 800px;
+  float: right;
 }
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -49,11 +53,11 @@ img {
   }
   
   .caption span.border {
-    background-color: #111;
     color: #fff;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
+    margin-top: -50px;
   }
   
   h3 {
@@ -71,5 +75,73 @@ a:visited { text-decoration: none; color:#F4D03F; }
 a:hover { text-decoration: none; color:#F4D03F; }
 a:focus { text-decoration: none; color:#F4D03F; }
 a:hover, a:active { text-decoration: none; color:white }
+
+/* Menu Styling */
+
+.menu{
+  text-align:center;
+  color: #FFF;
+  font-family: 'lato',sans-serif, bold;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 10px;
+  display: inline-block;
+  margin: auto;
+  margin-top: -10px;
+  padding: 40px;
+}
+
+.menu li{
+display: inline-block;
+  text-align: center;
+}
+
+.menu a {
+position: relative;
+display: inline-block;
+text-align: center;
+justify-content: center;
+padding: 4px 0;
+font-family: Lato, sans-serif;
+color: #ecf0f1;
+text-decoration: none;
+text-transform: uppercase;
+transition: 0.5s;
+font-weight: 400;
+  width: 100%;
+
+}
+ul li a::after {
+position: absolute;
+content: "";
+justify-content: center;
+top: 100%;
+left: 0;
+width: 100%;
+height: 3px;
+background: #3498db;
+transform: scaleX(0);
+transform-origin: right;
+transition: transform 0.5s;
+font-weight: 400;
+  text-align: center;
+}
+
+ul li a:hover {
+color: #F4D03F;
+font-weight: 400;
+justify-content: center;
+  text-align: center;
+
+
+}
+
+ul li a:hover::after {
+transform: scaleX(1);
+transform-origin: left;
+font-weight: 400;
+justify-content: center;
+  text-align: center;
+}
 
   

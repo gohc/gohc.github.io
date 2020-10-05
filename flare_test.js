@@ -108,7 +108,15 @@ function update(source) {
         })
         .attr("target", "iframe")
         //auto scrolls the iframe n pixels down
-        .attr("onclick", "window.scrollTo(0,1150)")
+        // .attr("onclick", "window.scrollTo(0,1150)")
+        .attr("onclick", function(d){
+            if (d.url){
+                // find location of iframe in page
+                iframeLoc = document.querySelector('iframe').getBoundingClientRect().top
+                return "window.scrollTo(0, " + iframeLoc + ")";
+            }
+            return null;
+        })
         .append("svg:text")
         //test code, 2 lines below
         .attr("x", function(d) { 
