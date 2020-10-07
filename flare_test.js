@@ -96,7 +96,7 @@ function update(source) {
     console.warn(nodes)
     
     // Normalize for fixed-depth.
-    nodes.forEach(function(d) { d.y = d.depth * 200; });
+    nodes.forEach(function(d) { d.y = d.depth * 250; });
     
     // Update the nodes…
     var node = vis.selectAll("g.node")
@@ -224,6 +224,18 @@ function update(source) {
               .on("zoom", zoom));
     
 }
+//Preventing Overlap of Nodes Vertically
+node.append("circle").attr("r", function(d, i) {
+    const padding = 5
+    // find siblings of a  node
+    let siblings = (d.parent && d.parent.children) || null;
+    // find minimum radius based on their x values so they don't overlap.
+    let radius =
+      siblings && siblings.length > 1 ?
+      (siblings[1].x - siblings[0].x - padding) / 2 :
+      45;
+    return radius;
+  });
 
 // Toggle children.
 function toggle(d) {
