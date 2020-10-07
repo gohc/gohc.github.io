@@ -42,6 +42,21 @@ p{
     background-image: url("img_parallax3.jpg");
     min-height: 400px;
   }
+
+  .bgimg-4 {
+    background-image: url("img_parallax4.jpg");
+    min-height: 400px;
+  }
+
+.title{
+    font: "Lato", sans-serif;
+    font-weight: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
   
   .caption {
     position: absolute;
