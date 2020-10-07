@@ -644,44 +644,9 @@
                 }
               ]
             }
-        {
-          "name": "Hurricanes",
-          "url": "http://gohc.github.io/pages/natural_hazards/hurricanes/README.html"
-        },
-        {
-          "name": "Sea Level Change"
-        },
-            
-        {
-          "name": "Submarine Mass Wasting"
-        },
-        {
-          "name": "Earthquakes",
-          "url": "https://storymaps.arcgis.com/stories/f98e7091ec9f4de6abd792796737c66d"
-        },
-        {
-          "name": "Volcanoes",
-          "url": "http://gohc.github.io/pages/natural_hazards/volcanoes/README.html"
-        },
-        {
-          "name": "Tsunamis",
-          "url": "http://gohc.github.io/pages/natural_hazards/tsunamis/README.html"
-        },
-        {
-          "name": "Ocean Deoxygenation"
-        },
-        {
-          "name": "Asteroids"
-        },
-        {
-          "name": "Coastal Erosion"
-        },
-        {
-          "name": "El Nino La Nina"
-        }
-      ]
-    },
-    {
+          ]
+      },
+      {
       "name": "Exponential Change",
       "children": [
         {
