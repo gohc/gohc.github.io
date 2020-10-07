@@ -96,7 +96,7 @@ function update(source) {
     console.warn(nodes)
     
     // Normalize for fixed-depth.
-    nodes.forEach(function(d) { d.y = d.depth * 180; });
+    nodes.forEach(function(d) { d.y = d.depth * 200; });
     
     // Update the nodes…
     var node = vis.selectAll("g.node")
@@ -141,7 +141,7 @@ function update(source) {
         .append("svg:text")
         //test code, 2 lines below
         .attr("x", function(d) { 
-            return d.children || d._children ? 10 : -10; })
+            return d.children || d._children ? 5 : -5; })
         .attr("dx", function (d) {
             return d.children || d._children ? "-1.25em" : "1.25em"
         })
@@ -159,8 +159,9 @@ function update(source) {
     .duration(duration)
     .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
     
+    //Control Radius size of node
     nodeUpdate.select("circle")
-        .attr("r", "0.75em")
+        .attr("r", "0.60em")
         .attr("class", function (d) {
             return d._children ? "with-children" : "";
         });
