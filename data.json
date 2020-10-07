@@ -587,9 +587,63 @@
       ]
     },
     {
-      "name": "Natural Hazards",
+      "name": "Hazards",
       "url": "https://storymaps.arcgis.com/stories/c8561b1f16864ff3908a840f82b0097d",
       "children": [
+            {
+              "name": "Natural",
+              "children": [
+                {
+                  "name": "Hurricanes",
+                  "url": "http://gohc.github.io/pages/natural_hazards/hurricanes/README.html"
+                },
+                {
+                  "name": "Sea Level Change"
+                },
+
+                {
+                  "name": "Submarine Mass Wasting"
+                },
+                {
+                  "name": "Earthquakes",
+                  "url": "https://storymaps.arcgis.com/stories/f98e7091ec9f4de6abd792796737c66d"
+                },
+                {
+                  "name": "Volcanoes",
+                  "url": "http://gohc.github.io/pages/natural_hazards/volcanoes/README.html"
+                },
+                {
+                  "name": "Tsunamis",
+                  "url": "http://gohc.github.io/pages/natural_hazards/tsunamis/README.html"
+                },
+                {
+                  "name": "Ocean Deoxygenation"
+                },
+                {
+                  "name": "Asteroids"
+                },
+                {
+                  "name": "Coastal Erosion"
+                },
+                {
+                  "name": "El Nino La Nina"
+                }
+              ]
+            },
+            {
+              "name": "Anthropogenic",
+              "children": [
+                {
+                  "name": "Nuclear Waste"
+                },
+                {
+                  "name": "Nutrient Loading"
+                },
+                {
+                  "name": "Noise Pollution"
+                }
+              ]
+            }
         {
           "name": "Hurricanes",
           "url": "http://gohc.github.io/pages/natural_hazards/hurricanes/README.html"
@@ -597,6 +651,7 @@
         {
           "name": "Sea Level Change"
         },
+            
         {
           "name": "Submarine Mass Wasting"
         },
@@ -662,6 +717,45 @@
      },
      {
       "name": "Maritime Commerce"
-     }
-  ]
+     },
+     {
+      "name": "Oceans & Human Health"
+     },
+     {
+      "name": "Off-Planet Oceans",
+      "children": [
+        {
+          "name": "Big Bang & Nucleansynthesis",
+          "url": "https://gohc.github.io/pages/Origins/Big_Bang_and_Nucleosynthesis/README.html"
+        },
+        {
+          "name": "Galaxies and Black Holes",
+          "url": "https://gohc.github.io/pages/Origins/Galaxies_and_Black_Holes/README.html"
+        },
+        {
+          "name": "Solar Systems",
+          "url": "https://gohc.github.io/pages/Origins/Stars_and_Solar_Systems/README.html"
+        },
+        {
+          "name": "Planets",
+          "url": "https://gohc.github.io/pages/Origins/Formation of our Solar System/README.html"
+        },
+        {
+          "name": "Oceans",
+          "url": "https://gohc.github.io/pages/Origins/Our_Naked_Ocean/README.html"
+        },
+        {
+          "name": "Plate Tectonics",
+          "url": "https://gohc.github.io/pages/Origins/Plate_Tectonics_Growth_Seafloor/README.html"
+        },
+        {
+          "name": "Origin of Life"
+
+        },
+        {
+          "name": "Evolution of Life"
+        }
+    ]
+},
+]
 }
