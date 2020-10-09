@@ -703,6 +703,7 @@
           "name": "Mars-An Ancient Ocean"
         },
         { "name": "Moons of Our Solar System",
+            "url": "https://storymaps.arcgis.com/stories/e22b845ec8314def9c6396d490a21899",
             "children": [
                 {
                   "name": "Moons of Jupiter",
