@@ -702,45 +702,49 @@
         {
           "name": "Mars-An Ancient Ocean"
         },
-        {
-          "name": "Moons of Jupiter",
-              "children": [
+        { "name": "Moons of Our Solar System",
+            "children": [
                 {
-                  "name": "Io"
+                  "name": "Moons of Jupiter",
+                      "children": [
+                        {
+                          "name": "Io"
+                        },
+                        {
+                          "name": "Europa"
+                        },
+                        {
+                          "name": "Ganymede"
+                        },
+                        {
+                          "name": "Callisto"
+                        }
+                    ]
                 },
                 {
-                  "name": "Europa"
+                  "name": "Moons of Saturn",
+                      "children": [
+                        {
+                          "name": "Enceladus"
+                        },
+                        {
+                          "name": "Titan"
+                        }
+                    ]
                 },
                 {
-                  "name": "Ganymede"
-                },
-                {
-                  "name": "Callisto"
+                  "name": "Moons of Neptune",
+                      "children": [
+                        {
+                          "name": "Enceladus"
+                        }
+                    ]
                 }
             ]
-        },
-        {
-          "name": "Moons of Saturn",
-              "children": [
-                {
-                  "name": "Enceladus"
-                },
-                {
-                  "name": "Titan"
-                }
-            ]
-        },
-        {
-          "name": "Moons of Neptune",
-              "children": [
-                {
-                  "name": "Enceladus"
-                }
-            ]
-        },
-        {
-          "name": "Pluto"
-        }
+      },
+      {
+        "name": "Pluto"
+      }
 
     ]
 }
