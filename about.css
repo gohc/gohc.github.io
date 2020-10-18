@@ -118,13 +118,12 @@ ul li a:hover::after {
 /* Timeline CSS */
 .timeline{
 	min-height: 100vh;
-	margin: 0;
-	font-family: 'Droid Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 body:before {
 	content: '';
-	position: fixed;
+  position: fixed;
 	top: 0px;
 	left: 50%;
 	bottom: 0px;
@@ -162,7 +161,7 @@ body .entries .entry .title {
 
 body .entries .entry .title:before {
 	content: ' ';
-	position: absolute;
+  position: absolute;
 	width: 8px;
 	height: 8px;
 	border: 4px solid #ffffff;
@@ -225,6 +224,7 @@ body .entries .entry:nth-child(2n) .title.big:before {
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
     margin: auto;
+    
   }
   
   .text p {
@@ -277,5 +277,5 @@ body .entries .entry:nth-child(2n) .title.big:before {
       76.6% 17.3%,
       50% 6%
     );
-    shape-margin: 7%;
+
   }
