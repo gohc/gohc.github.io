@@ -42,31 +42,65 @@
       "name": "Dynamic Ocean",
       "children": [
         {
-          "name": "Physics of Water"
+          "name": "Water on Earth"
         },
         {
-          "name": "Thermo-Haline Circulation"
+          "name": "Water is Special"
         },
         {
-          "name": "Coriolis"
+          "name": "Why Water Moves",
+          "children": [
+            { 
+              "name": "Wind Driver"
+            },
+            { 
+              "name": "Coriolis & Gyres"
+            },
+            { 
+              "name": "Geostrophy"
+            },
+            { 
+              "name": "Density Driver"
+            },
+            {
+              "name": "Up-welling"
+            },
+            {
+              "name": "Down-welling"
+            }
+          ]
         },
         {
-          "name": "Gyres"
+          "name": "Oceanic Nutrition"
         },
         {
-          "name": "Primary Productivity"
+          "name": "Life Under the Surface",
+           "children" : [
+             {
+               "name": "Microbes and Viruses"
+             },
+             {
+              "name": "Grass of the Sea"
+            },
+            {
+              "name": "Shrimp to Whales"
+            },
+            {
+              "name": "Food Webs: the Food Fight"
+            },
+            {
+              "name": "Top Predators"
+            }
+           ]
         },
         {
-          "name": "Secondary Productivity"
+          "name": "Top Predators"
         },
         {
-          "name": "Atmosphere-Ocean Coupling"
+          "name": "A Champagne Ocean"
         },
         {
-          "name": "Chemical Exchanges"
-        },
-        {
-          "name": "Climate Change"
+          "name": "The Acid Truth"
         }
       ]
     },
@@ -683,8 +717,169 @@
       ]
      },
      {
-      "name": "Maritime Commerce"
-     },
+      "name": "Shipping, Trade & Transport",
+      "children": [
+        {
+          "name": "Historic Development",
+          "children": [
+            {
+              "name": "Population-Proximity to Oceans"
+            },
+            {
+              "name": "Explorers"
+            },
+            {
+              "name": "Cargo Driven Migration & Colonization"
+            },
+            {
+              "name": "Military Defense of Commerce"
+            }
+              ]
+        },
+        {
+          "name": "Cargo Shipping",
+          "children": [
+            {
+              "name": "Container: Introduction"
+            },
+            {
+              "name": "The Container Revolution",
+              "children": [
+                {
+                  "name": "Cost Reduction"
+                },
+                {
+                  "name": "Middle Class Growth"
+                },
+                {
+                  "name": "Geopolitics with China"
+                },
+                {
+                  "name": "Environmental"
+                }
+              ]
+            },
+            {
+              "name": "Bulk Shipping"
+            },
+            {
+              "name": "Break-Bulk Shipping",
+              "children": [
+                {
+                  "name": "Hook and Sling"
+                },
+                {
+                  "name": "Model of Shift"
+                },
+                {
+                  "name": "Reefer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Passenger Transport",
+          "children": [
+            {
+              "name": "Transoceanic Liners" 
+            },
+            {
+              "name": "Cruise Ships" 
+            },
+            {
+              "name": "Ferries"
+            },
+            {
+              "name": "Recreational",
+              "children": [
+                {
+                  "name": "Small Vessels" },
+                { 
+                  "name": "Mega-Yachts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Environmental Impact",
+          "children": [
+            {
+              "name": "Carbon Based Fuel Emissions" 
+            },
+            { 
+              "name": "Spills and Discharges"
+            },
+            { 
+              "name": "Invasive Species"
+            },
+            { 
+              "name": "Solutions",
+              "children": [
+                {
+                  "name": "IMO Regulations" 
+                },
+                { 
+                  "name": "Regional National Laws"
+                },
+                { 
+                  "name": "New Propulsion Technology"
+                }
+              ]
+            },
+            { 
+              "name": "Other Risks",
+              "children": [
+                {
+                  "name": "Automation" 
+                },
+                { 
+                  "name": "Piracy at Choke Points"
+                },
+                { 
+                  "name": "Territorial Disputes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+            "name": "Vessel Technology",
+            "children": [
+              {
+                "name": "Human Powered"
+              },
+              {
+                "name": "Wind Powered"
+              },
+              {
+                "name": "Diesel & Diesel Electric"
+              },
+              {
+                "name": "LNG/Dual Fuel"
+              },
+              {
+                "name": "Future Vessel Types",
+                "children": [
+                  {
+                    "name": "Hydrogen"
+                  },
+                  {
+                    "name": "Ammonia Fuel Cells"
+                  },
+                  {
+                    "name": "Batteries"
+                  },
+                  {
+                    "name": "Back to Wind"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
      {
       "name": "Oceans & Human Health"
      },
