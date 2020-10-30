@@ -643,34 +643,52 @@
     {
       "name": "Sea Power",
       "children": [
-        {
-          "name": "Black Powder Canons"
+        {"name": "Conflict Zones",
+          "children":[
+            {"name": "Historic"
+            },
+            {"name": "Current"}
+          ]
         },
-        {
-          "name": "Fire Arrows"
+        {"name": "Projection of Power",
+          "children":[
+            {"name": "Soft"
+            },
+            {"name": "Hard"}
+          ]
         },
-        {
-          "name": "Sail vs Rowing"
-        },
-        {
-          "name": "Aircraft Carriers"
-        },
-        {
-          "name": "Rowing and Impact"
-        },
-        {
-          "name": "Steam vs Sail"
-        },
-        {
-          "name": "Nuclear Submarines"
-        },
-        {
-          "name": "Major Naval Battles",
-          "url": "https://storymaps.arcgis.com/stories/b581633ed6504b7381a77da083065e91"
-        },
-        {
-          "name": "Greek Fire",
-          "url": "https://storymaps.arcgis.com/stories/0a1a6feca1c742e6806bed8ea7812f95"
+        {"name": "Projection of Power",
+          "children":[
+            {
+              "name": "Black Powder Canons"
+            },
+            {
+              "name": "Fire Arrows"
+            },
+            {
+              "name": "Sail vs Rowing"
+            },
+            {
+              "name": "Aircraft Carriers"
+            },
+            {
+              "name": "Rowing and Impact"
+            },
+            {
+              "name": "Steam vs Sail"
+            },
+            {
+              "name": "Nuclear Submarines"
+            },
+            {
+              "name": "Major Naval Battles",
+              "url": "https://storymaps.arcgis.com/stories/b581633ed6504b7381a77da083065e91"
+            },
+            {
+              "name": "Greek Fire",
+              "url": "https://storymaps.arcgis.com/stories/0a1a6feca1c742e6806bed8ea7812f95"
+            }
+          ]
         }
       ]
     },
