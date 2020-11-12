@@ -183,21 +183,18 @@ ul li a:hover::after {
 }
 
 .center-section {
-	width: 420px;
-	height: 420px;
+	width: 360px;
+	height: 360px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -210px;
-	margin-left: -210px;
+	margin-top: -180px;
+	margin-left: -180px;
 	padding: 55px;
 	border-radius: 500px;
 	border-radius: 50%;
 	text-align: center;
-	background: black;
-	background-image: url("blue_dot.png");
-	background-position: center;
-	background-size: contain;
+	background: #fff;
 	box-shadow: inset 0px 0px 15px #333;
 	display: none;
 	z-index: 1;
@@ -218,16 +215,16 @@ ul li a:hover::after {
 
 .circular-menu li div.label {
 	position: absolute;
-	width: 126px;
-	height: 126px;
+	width: 180px;
+	height: 180px;
 	z-index: 2;
 }
 
 .circular-menu li div.label p {
 	text-align: center;
-	max-width: 83.16px;
+	max-width: 118.8px;
 	margin: 0 auto;
-	margin-top: 50.4px;
+	margin-top: 72px;
 	color: #fff;
 }
 
@@ -241,7 +238,7 @@ ul li a:hover::after {
 }
 
 .circular-menu li .bg {
-	width: 300px;
+	width: 350px;
 	height: 300px;
 	position: absolute;
 	transform-origin: 0 300px;
@@ -264,29 +261,29 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(1) .bg {
-	transform: rotate(-70deg) skew(-50deg);
-	background: #60201E;
+	transform: rotate(-72deg) skew(-54deg);
+	background: #4A235A;
 }
 
 .circular-menu li:nth-child(1):hover .bg,
 .touch .circular-menu li:nth-child(1):focus .bg {
-	background: #872d2a;
+	background: #68317f;
 }
 
 .circular-menu li:nth-child(1) span.arrow {
 	transform: rotate(-45deg);
-	margin: -255px 0 0 -15px;
-	background: #60201E;
+	margin: -225px 0 0 -15px;
+	background: #4A235A;
 }
 
 .circular-menu li:nth-child(1):hover span.arrow,
 .touch .circular-menu li:nth-child(1):focus span.arrow {
-	background: #872d2a;
-	margin: -225px 0 0 -15px;
+	background: #68317f;
+	margin: -195px 0 0 -15px;
 }
 
 .circular-menu li:nth-child(1) div.label {
-	margin: -318px 0 0 -63px;
+	margin: -330px 0 0 -90px;
 }
 
 .circular-menu li:nth-child(1):hover div.center-section.section-1,
@@ -299,7 +296,7 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(2) .bg {
-	transform: rotate(-30deg) skew(-50deg);
+	transform: rotate(-36deg) skew(-54deg);
 	background: #022F56;
 }
 
@@ -309,19 +306,19 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(2) span.arrow {
-	transform: rotate(-5deg);
-	margin: -198.85067px 0 0 139.26903px;
+	transform: rotate(-9deg);
+	margin: -184.89357px 0 0 108.4349px;
 	background: #022F56;
 }
 
 .circular-menu li:nth-child(2):hover span.arrow,
 .touch .circular-menu li:nth-child(2):focus span.arrow {
 	background: #034a88;
-	margin: -175.86933px 0 0 119.9854px;
+	margin: -160.62306px 0 0 90.80135px;
 }
 
 .circular-menu li:nth-child(2) div.label {
-	margin: -258.34133px 0 0 100.91084px;
+	margin: -284.16408px 0 0 51.06846px;
 }
 
 .circular-menu li:nth-child(2):hover div.center-section.section-2,
@@ -334,7 +331,7 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(3) .bg {
-	transform: rotate(10deg) skew(-50deg);
+	transform: rotate(0deg) skew(-54deg);
 	background: #054865;
 }
 
@@ -344,19 +341,19 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(3) span.arrow {
-	transform: rotate(35deg);
-	margin: -56.67556px 0 0 221.35386px;
+	transform: rotate(27deg);
+	margin: -79.89357px 0 0 184.72187px;
 	background: #054865;
 }
 
 .circular-menu li:nth-child(3):hover span.arrow,
 .touch .circular-menu li:nth-child(3):focus span.arrow {
 	background: #076b96;
-	margin: -51.46612px 0 0 191.80963px;
+	margin: -70.62306px 0 0 156.19017px;
 }
 
 .circular-menu li:nth-child(3) div.label {
-	margin: -107.28029px 0 0 188.12598px;
+	margin: -164.16408px 0 0 138.25356px;
 }
 
 .circular-menu li:nth-child(3):hover div.center-section.section-3,
@@ -369,7 +366,7 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(4) .bg {
-	transform: rotate(50deg) skew(-50deg);
+	transform: rotate(36deg) skew(-54deg);
 	background: #257993;
 }
 
@@ -379,19 +376,19 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(4) span.arrow {
-	transform: rotate(75deg);
-	margin: 105px 0 0 192.8461px;
+	transform: rotate(63deg);
+	margin: 49.89357px 0 0 184.72187px;
 	background: #257993;
 }
 
 .circular-menu li:nth-child(4):hover span.arrow,
 .touch .circular-menu li:nth-child(4):focus span.arrow {
 	background: #2f9bbc;
-	margin: 90px 0 0 166.86533px;
+	margin: 40.62306px 0 0 156.19017px;
 }
 
 .circular-menu li:nth-child(4) div.label {
-	margin: 64.5px 0 0 157.83648px;
+	margin: -15.83592px 0 0 138.25356px;
 }
 
 .circular-menu li:nth-child(4):hover div.center-section.section-4,
@@ -404,7 +401,7 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(5) .bg {
-	transform: rotate(90deg) skew(-50deg);
+	transform: rotate(72deg) skew(-54deg);
 	background: #53969E;
 }
 
@@ -414,19 +411,19 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(5) span.arrow {
-	transform: rotate(115deg);
-	margin: 210.52623px 0 0 67.08483px;
+	transform: rotate(99deg);
+	margin: 154.89357px 0 0 108.4349px;
 	background: #53969E;
 }
 
 .circular-menu li:nth-child(5):hover span.arrow,
 .touch .circular-menu li:nth-child(5):focus span.arrow {
 	background: #70adb4;
-	margin: 182.33545px 0 0 56.82423px;
+	margin: 130.62306px 0 0 90.80135px;
 }
 
 .circular-menu li:nth-child(5) div.label {
-	margin: 176.62162px 0 0 24.21514px;
+	margin: 104.16408px 0 0 51.06846px;
 }
 
 .circular-menu li:nth-child(5):hover div.center-section.section-5,
@@ -439,7 +436,7 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(6) .bg {
-	transform: rotate(130deg) skew(-50deg);
+	transform: rotate(108deg) skew(-54deg);
 	background: #9F9C57;
 }
 
@@ -449,19 +446,19 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(6) span.arrow {
-	transform: rotate(155deg);
-	margin: 210.52623px 0 0 -97.08483px;
+	transform: rotate(135deg);
+	margin: 195px 0 0 -15px;
 	background: #9F9C57;
 }
 
 .circular-menu li:nth-child(6):hover span.arrow,
 .touch .circular-menu li:nth-child(6):focus span.arrow {
 	background: #b4b175;
-	margin: 182.33545px 0 0 -86.82423px;
+	margin: 165px 0 0 -15px;
 }
 
 .circular-menu li:nth-child(6) div.label {
-	margin: 176.62162px 0 0 -150.21514px;
+	margin: 150px 0 0 -90px;
 }
 
 .circular-menu li:nth-child(6):hover div.center-section.section-6,
@@ -474,7 +471,7 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(7) .bg {
-	transform: rotate(170deg) skew(-50deg);
+	transform: rotate(144deg) skew(-54deg);
 	background: #D4AC0D;
 }
 
@@ -484,19 +481,19 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(7) span.arrow {
-	transform: rotate(195deg);
-	margin: 105px 0 0 -222.8461px;
+	transform: rotate(171deg);
+	margin: 154.89357px 0 0 -138.4349px;
 	background: #D4AC0D;
 }
 
 .circular-menu li:nth-child(7):hover span.arrow,
 .touch .circular-menu li:nth-child(7):focus span.arrow {
 	background: #f1c823;
-	margin: 90px 0 0 -196.86533px;
+	margin: 130.62306px 0 0 -120.80135px;
 }
 
 .circular-menu li:nth-child(7) div.label {
-	margin: 64.5px 0 0 -283.83648px;
+	margin: 104.16408px 0 0 -231.06846px;
 }
 
 .circular-menu li:nth-child(7):hover div.center-section.section-7,
@@ -509,7 +506,7 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(8) .bg {
-	transform: rotate(210deg) skew(-50deg);
+	transform: rotate(180deg) skew(-54deg);
 	background: #BA4A00;
 }
 
@@ -519,34 +516,32 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(8) span.arrow {
-	transform: rotate(235deg);
-	margin: -56.67556px 0 0 -251.35386px;
+	transform: rotate(207deg);
+	margin: 49.89357px 0 0 -214.72187px;
 	background: #BA4A00;
 }
 
 .circular-menu li:nth-child(8):hover span.arrow,
 .touch .circular-menu li:nth-child(8):focus span.arrow {
 	background: #ed5e00;
-	margin: -51.46612px 0 0 -221.80963px;
+	margin: 40.62306px 0 0 -186.19017px;
 }
 
 .circular-menu li:nth-child(8) div.label {
-	margin: -107.28029px 0 0 -314.12598px;
+	margin: -15.83592px 0 0 -318.25356px;
 }
 
 .circular-menu li:nth-child(8):hover div.center-section.section-8,
 .touch .circular-menu li:nth-child(8):focus div.center-section.section-8 {
 	display: block;
-	text-align: center;
 }
 
 .circular-menu li:nth-child(9) {
 	display: block;
-	
 }
 
 .circular-menu li:nth-child(9) .bg {
-	transform: rotate(250deg) skew(-50deg);
+	transform: rotate(216deg) skew(-54deg);
 	background: #A71D0C;
 }
 
@@ -556,19 +551,19 @@ ul li a:hover::after {
 }
 
 .circular-menu li:nth-child(9) span.arrow {
-	transform: rotate(275deg);
-	margin: -198.85067px 0 0 -169.26902px;
+	transform: rotate(243deg);
+	margin: -79.89357px 0 0 -214.72187px;
 	background: #A71D0C;
 }
 
 .circular-menu li:nth-child(9):hover span.arrow,
 .touch .circular-menu li:nth-child(9):focus span.arrow {
 	background: #d7250f;
-	margin: -175.86933px 0 0 -149.98539px;
+	margin: -70.62306px 0 0 -186.19017px;
 }
 
 .circular-menu li:nth-child(9) div.label {
-	margin: -258.34133px 0 0 -226.91084px;
+	margin: -164.16408px 0 0 -318.25356px;
 }
 
 .circular-menu li:nth-child(9):hover div.center-section.section-9,
@@ -576,11 +571,44 @@ ul li a:hover::after {
 	display: block;
 }
 
+.circular-menu li:nth-child(10) {
+	display: block;
+}
+
+.circular-menu li:nth-child(10) .bg {
+	transform: rotate(252deg) skew(-54deg);
+	background: #60201E;
+}
+
+.circular-menu li:nth-child(10):hover .bg,
+.touch .circular-menu li:nth-child(10):focus .bg {
+	background: #872d2a;
+}
+
+.circular-menu li:nth-child(10) span.arrow {
+	transform: rotate(279deg);
+	margin: -184.89357px 0 0 -138.4349px;
+	background: #60201E;
+}
+
+.circular-menu li:nth-child(10):hover span.arrow,
+.touch .circular-menu li:nth-child(10):focus span.arrow {
+	background: #872d2a;
+	margin: -160.62306px 0 0 -120.80134px;
+}
+
+.circular-menu li:nth-child(10) div.label {
+	margin: -284.16408px 0 0 -231.06845px;
+}
+
+.circular-menu li:nth-child(10):hover div.center-section.section-10,
+.touch .circular-menu li:nth-child(10):focus div.center-section.section-10 {
+	display: block;
+}
+
 .animated {
 	animation-duration: 0.75s;
 	animation-fill-mode: both;
-
-	padding: 70px 0;
 }
 
 @keyframes fadeInUp {
@@ -593,8 +621,3 @@ ul li a:hover::after {
 		opacity: 1;
 		transform: none;
 	}
-}
-
-.fadeInUp {
-	animation-name: fadeInUp;
-}
