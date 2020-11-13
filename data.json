@@ -3,6 +3,40 @@
   "url": "http://globalocean-humanculture-2019.webflow.io/",
   "children": [
     {
+      "name": "Exponential Change",
+      "children": [
+        {
+          "name": "Optical/Acoustic Comms"
+        },
+        {
+          "name": "Moore's Law"
+        },
+        {
+          "name": "Kurzweil Views",
+          "url": "https://storymaps.arcgis.com/stories/7e86910682e74d17a42a4f876d17cc10"
+        },
+        {
+          "name": "Artificial Intelligence"
+        },
+        {
+          "name": "Nanotech"
+        },
+        {
+          "name": "Genomic Revolution"
+        },
+        {
+          "name": "Marine Robotic Future",
+          "url": "https://gohc.github.io/pages/exponential_change/marine_robotic_future/README.html"
+        },
+        {
+          "name": "Orgobots Beyond Earth"
+        },
+        {
+          "name": "Multisensor AI-dominated Submersibles"
+        }
+      ]
+     },
+    {
       "name": "Origins",
       "children": [
         {
@@ -101,58 +135,6 @@
         },
         {
           "name": "The Acid Truth"
-        }
-      ]
-    },
-        {
-      "name": "Climate Change",
-      "children": [
-        {
-          "name": "Oceans: Brain of the Climate System"
-        },
-        {
-          "name": "Climate Control",
-          "children": [
-            { 
-              "name": "Heat Reservoirs"
-            },
-            { 
-              "name": "Carbon Reservoirs",
-              "children": [
-                {"name": "Ocean/Milankovich Cycles"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Global Water Flows",
-           "children" : [
-             {
-               "name": "Gulf Stream",
-              "children": [
-                {"name": "Ocean/Milankovich Cycles"
-                }
-              ]
-             },
-             {
-              "name": "Thermohaline Circulation"
-            },
-            {
-              "name": "How Much Is A Sverdrup?"
-            }
-           ]
-        },
-        {
-          "name": "Ocean-Atmosphere Interactions",
-           "children" : [
-             {
-               "name": "El Nino-Southern Oscillation"
-             },
-             {
-              "name": "Monsoons"
-            }
-           ]
         }
       ]
     },
@@ -657,7 +639,7 @@
             {"name": "Hard"}
           ]
         },
-        {"name": "Projection of Power",
+        {"name": "Technologies",
           "children":[
             {
               "name": "Black Powder Canons"
@@ -693,100 +675,6 @@
       ]
     },
     {
-      "name": "Hazards",
-      "url": "https://storymaps.arcgis.com/stories/c8561b1f16864ff3908a840f82b0097d",
-      "children": [
-            {
-              "name": "Natural",
-              "children": [
-                {
-                  "name": "Hurricanes",
-                  "url": "http://gohc.github.io/pages/natural_hazards/hurricanes/README.html"
-                },
-                {
-                  "name": "Sea Level Change"
-                },
-
-                {
-                  "name": "Submarine Mass Wasting"
-                },
-                {
-                  "name": "Earthquakes",
-                  "url": "https://storymaps.arcgis.com/stories/f98e7091ec9f4de6abd792796737c66d"
-                },
-                {
-                  "name": "Volcanoes",
-                  "url": "http://gohc.github.io/pages/natural_hazards/volcanoes/README.html"
-                },
-                {
-                  "name": "Tsunamis",
-                  "url": "http://gohc.github.io/pages/natural_hazards/tsunamis/README.html"
-                },
-                {
-                  "name": "Ocean Deoxygenation"
-                },
-                {
-                  "name": "Asteroids"
-                },
-                {
-                  "name": "Coastal Erosion"
-                },
-                {
-                  "name": "El Nino La Nina"
-                }
-              ]
-            },
-            {
-              "name": "Anthropogenic",
-              "children": [
-                {
-                  "name": "Nuclear Waste"
-                },
-                {
-                  "name": "Nutrient Loading"
-                },
-                {
-                  "name": "Noise Pollution"
-                }
-              ]
-            }
-          ]
-      },
-      {
-      "name": "Exponential Change",
-      "children": [
-        {
-          "name": "Optical/Acoustic Comms"
-        },
-        {
-          "name": "Moore's Law"
-        },
-        {
-          "name": "Kurzweil Views",
-          "url": "https://storymaps.arcgis.com/stories/7e86910682e74d17a42a4f876d17cc10"
-        },
-        {
-          "name": "Artificial Intelligence"
-        },
-        {
-          "name": "Nanotech"
-        },
-        {
-          "name": "Genomic Revolution"
-        },
-        {
-          "name": "Marine Robotic Future",
-          "url": "https://gohc.github.io/pages/exponential_change/marine_robotic_future/README.html"
-        },
-        {
-          "name": "Orgobots Beyond Earth"
-        },
-        {
-          "name": "Multisensor AI-dominated Submersibles"
-        }
-      ]
-     },
-     {
       "name": "Shipping, Trade & Transport",
       "children": [
         {
@@ -950,8 +838,73 @@
           }
         ]
       },
+    {
+      "name": "Hazards",
+      "url": "https://storymaps.arcgis.com/stories/c8561b1f16864ff3908a840f82b0097d",
+      "children": [
+            {
+              "name": "Natural",
+              "children": [
+                {
+                  "name": "Hurricanes",
+                  "url": "http://gohc.github.io/pages/natural_hazards/hurricanes/README.html"
+                },
+                {
+                  "name": "Sea Level Change"
+                },
+
+                {
+                  "name": "Submarine Mass Wasting"
+                },
+                {
+                  "name": "Earthquakes",
+                  "url": "https://storymaps.arcgis.com/stories/f98e7091ec9f4de6abd792796737c66d"
+                },
+                {
+                  "name": "Volcanoes",
+                  "url": "http://gohc.github.io/pages/natural_hazards/volcanoes/README.html"
+                },
+                {
+                  "name": "Tsunamis",
+                  "url": "http://gohc.github.io/pages/natural_hazards/tsunamis/README.html"
+                },
+                {
+                  "name": "Ocean Deoxygenation"
+                },
+                {
+                  "name": "Asteroids"
+                },
+                {
+                  "name": "Coastal Erosion"
+                },
+                {
+                  "name": "El Nino La Nina"
+                }
+              ]
+            },
+            {
+              "name": "Anthropogenic",
+              "children": [
+                {
+                  "name": "Nuclear Waste"
+                },
+                {
+                  "name": "Nutrient Loading"
+                },
+                {
+                  "name": "Noise Pollution"
+                }
+              ]
+            }
+          ]
+      },
      {
-      "name": "Oceans & Human Health"
+      "name": "Oceans & Human Health",
+      "children": [
+        {
+          "name": "Place Holder"
+        }
+      ]
      },
      {
       "name": "Alien Oceans",
@@ -1016,6 +969,58 @@
       }
 
     ]
+},
+{
+  "name": "Climate Change",
+  "children": [
+    {
+      "name": "Oceans: Brain of the Climate System"
+    },
+    {
+      "name": "Climate Control",
+      "children": [
+        { 
+          "name": "Heat Reservoirs"
+        },
+        { 
+          "name": "Carbon Reservoirs",
+          "children": [
+            {"name": "Ocean/Milankovich Cycles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Water Flows",
+       "children" : [
+         {
+           "name": "Gulf Stream",
+          "children": [
+            {"name": "Ocean/Milankovich Cycles"
+            }
+          ]
+         },
+         {
+          "name": "Thermohaline Circulation"
+        },
+        {
+          "name": "How Much Is A Sverdrup?"
+        }
+       ]
+    },
+    {
+      "name": "Ocean-Atmosphere Interactions",
+       "children" : [
+         {
+           "name": "El Nino-Southern Oscillation"
+         },
+         {
+          "name": "Monsoons"
+        }
+       ]
+    }
+  ]
 }
 ]
 }
