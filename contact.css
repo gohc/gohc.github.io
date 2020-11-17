@@ -20,7 +20,7 @@ p{
   float: right;
 }
   
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
     position: relative;
     opacity: 1;
     background-attachment: fixed;
@@ -46,6 +46,18 @@ p{
 
   .bgimg-4 {
     background-image: url("img_parallax4.jpg");
+    min-height: 400px;
+  }
+  .bgimg-5 {
+    background-image: url("img_parallax5.jpg");
+    min-height: 400px;
+  }
+  .bgimg-6 {
+    background-image: url("img_parallax6.jpg");
+    min-height: 400px;
+  }
+  .bgimg-7 {
+    background-image: url("img_parallax7.jpg");
     min-height: 400px;
   }
 
