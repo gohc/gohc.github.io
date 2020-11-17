@@ -111,6 +111,11 @@ p{
     color: #111;
     position:relative;
   }
+
+  .border{
+    font-weight: 550; 
+    text-shadow: -1px -1px 0 #154360, 1px -1px 0 #154360, -1px 1px 0 #154360, 1px 1px 0 #154360;
+  }
 /* Globally */
 
 /* Each state */
