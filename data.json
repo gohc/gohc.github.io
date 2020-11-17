@@ -974,7 +974,17 @@
   "name": "Climate Change",
   "children": [
     {
-      "name": "Oceans: Brain of the Climate System"
+      "name": "Oceans: Brain of the Climate System",
+      "children": [
+        { 
+          "name": "Water, The Magic Fluid",
+          "children": [
+            { 
+              "name": "Why Is The Ocean Salty?"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Climate Control",
@@ -997,7 +1007,7 @@
          {
            "name": "Gulf Stream",
           "children": [
-            {"name": "Ocean/Milankovich Cycles"
+            {"name": "Eastern Boundary Currents/Ekman Transport"
             }
           ]
          },
