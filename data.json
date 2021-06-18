@@ -651,7 +651,7 @@
     {
       "name": "Sea Power",
       "children": [
-        {"name": "Conflict Zones"
+        {"name": "Conflict Zones",
           "children":[
             {"name": "Historic"
             },
