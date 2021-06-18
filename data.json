@@ -25,8 +25,7 @@
           "name": "Genomic Revolution"
         },
         {
-          "name": "Marine Robotic Future",
-          "url": "https://gohc.github.io/pages/exponential_change/marine_robotic_future/README.html"
+          "name": "Marine Robotic Future"
         },
         {
           "name": "Orgobots Beyond Earth"
@@ -40,32 +39,26 @@
       "name": "Origins",
       "children": [
         {
-          "name": "Big Bang & Nucleansynthesis",
-          "url": "https://gohc.github.io/pages/Origins/Big_Bang_and_Nucleosynthesis/README.html"
+          "name": "Big Bang & Nucleansynthesis"
         },
         {
-          "name": "Galaxies and Black Holes",
-          "url": "https://gohc.github.io/pages/Origins/Galaxies_and_Black_Holes/README.html"
+          "name": "Galaxies and Black Holes"
         },
         {
-          "name": "Solar Systems",
-          "url": "https://gohc.github.io/pages/Origins/Stars_and_Solar_Systems/README.html"
+          "name": "Solar Systems"
         },
         {
-          "name": "Planets",
-          "url": "https://gohc.github.io/pages/Origins/Formation of our Solar System/README.html"
+          "name": "Planets"
         },
         {
-          "name": "Oceans",
-          "url": "https://gohc.github.io/pages/Origins/Our_Naked_Ocean/README.html"
+          "name": "Oceans"
         },
         {
-          "name": "Plate Tectonics",
-          "url": "https://gohc.github.io/pages/Origins/Plate_Tectonics_Growth_Seafloor/README.html"
+          "name": "Plate Tectonics"
         },
         {
-          "name": "Origin of Life"
-
+          "name": "The Origins of Life",
+          "url": "https://storymaps.arcgis.com/stories/3a82a518af0b401ba141afe163012c9f"
         },
         {
           "name": "Evolution of Life"
@@ -76,7 +69,34 @@
       "name": "Dynamic Ocean",
       "children": [
         {
-          "name": "Water on Earth"
+          "name": "Water on Earth",
+          "children": [
+            { 
+              "name": "Rivers and Lakes"
+            },
+            { 
+              "name": "Snow and Glaciers"
+            },
+            { 
+              "name": "Oceans",
+               "children": [
+                 { 
+                  "name": "The Southern Ocean",
+                   "url": "https://storymaps.arcgis.com/stories/de3ac5ff0dac4e40be3d4ac739ea8368"  
+                 }
+               ]
+            },
+            { 
+              "name": "Marginal Seas",
+               "url": "https://storymaps.arcgis.com/stories/428d3a298330409bb73f8217b94c8655",
+               "children": [
+                 { 
+                  "name": "The Salish Sea",
+                   "url": "https://storymaps.arcgis.com/stories/5a9d1eccb77a49bbba2d19e1c585d50e"  
+                 }
+               ]
+            }
+          ]     
         },
         {
           "name": "Water is Special"
@@ -101,6 +121,21 @@
             },
             {
               "name": "Down-welling"
+            },
+            {
+              "name": "Currents",
+            "children": [
+                { 
+                "name": "The Gulfstream",
+                  "url": "https://storymaps.arcgis.com/stories/0922746b4e0645638848ef88df3cd9cf"  
+                },
+                { 
+                "name": "East Australian Current"
+                },
+                { 
+                "name": "Kuroshio Current"
+                }
+              ]
             }
           ]
         },
@@ -134,7 +169,8 @@
           "name": "A Champagne Ocean"
         },
         {
-          "name": "The Acid Truth"
+          "name": "The Acid Truth",
+           "url": "https://storymaps.arcgis.com/stories/0922746b4e0645638848ef88df3cd9cf" 
         }
       ]
     },
@@ -304,32 +340,25 @@
           "name": "Poetry",
           "children": [
             {
-              "name": "Leaves of Grass - W. Whitman",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/poetry/leaves_of_grass/README.html"
+              "name": "Leaves of Grass - W. Whitman"
             },
             {
-              "name": "Tectonics - Ted Kooser",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/poetry/tectonics/README.html"
+              "name": "Tectonics - Ted Kooser"
             },
             {
-              "name": "Sea Drift-Leaves of Grass - W. Whitman",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/poetry/sea_drift/README.html"
+              "name": "Sea Drift-Leaves of Grass - W. Whitman"
             },
             {
-              "name": "On the Oregon Cloast - Galway Kinnel",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/poetry/oregon_coast/README.html"
+              "name": "On the Oregon Cloast - Galway Kinnel"
             },
             {
-              "name": "Fathom and League - Michael Collier",
-              "url": "https://storymaps.arcgis.com/stories/c339755518f544d2be3f9b63fd3b03e7"
+              "name": "Fathom and League - Michael Collier"
             },
             {
-              "name": "Omeros - Derek Walcott",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/poetry/omeros/README.html"
+              "name": "Omeros - Derek Walcott"
             },
             {
-              "name": "The Odyssey - Homer",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/poetry/odyssey/README.html"
+              "name": "The Odyssey - Homer"
             },
             {
               "name": "It is Born - Neruda",
@@ -341,36 +370,28 @@
           "name": "Music",
           "children": [
             {
-              "name": "Brendan Voyage - Shaun Davey",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/music/brendan_voyage/README.html"
+              "name": "Brendan Voyage - Shaun Davey"
             },
             {
-              "name": "Vltava The Moldau - Smetana",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/music/vltava/README.html"
+              "name": "Vltava The Moldau - Smetana"
             },
             {
-              "name": "50 Sea-Inspired Classical Pieces",
-              "url": "http://"
+              "name": "50 Sea-Inspired Classical Pieces"
             },
             {
-              "name": "Victory at Sea - Richard Roges",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/music/victory_at_sea/README.html"
+              "name": "Victory at Sea - Richard Roges"
             },
             {
-              "name": "San Juan Suite - Michael Gettel",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/music/san_juan_suite/README.html"
+              "name": "San Juan Suite - Michael Gettel"
             },
             {
-              "name": "And God Created Great Whales - Hovhannes",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/music/and_god_created_whales/README.html"
+              "name": "And God Created Great Whales - Hovhannes"
             },
             {
-              "name": "Sea Symphony - Vaughn Williams",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/music/sea_symphony/README.html"
+              "name": "Sea Symphony - Vaughn Williams"
             },
             {
-              "name": "La Mer - Claude Debussy",
-              "url": "https://gohc.github.io/pages/art_of_the_ocean/music/la_mer/README.html"
+              "name": "La Mer - Claude Debussy"
             }
           ]
         },
@@ -404,6 +425,10 @@
             {
               "name": "Monsters and Spirits",
               "children": [
+                {
+                  "name": "Mermaids",
+                  "url": "https://storymaps.arcgis.com/stories/647685f3aebf40d5b50faa53d37e529c"
+                },
                 {
                   "name": "Rusalka"
                 },
@@ -485,6 +510,10 @@
             {
               "name": "Disasters",
               "children": [
+                {
+                  "name": "Flood Stories",
+                  "url": "https://storymaps.arcgis.com/stories/3255171a6e824687b473306e6dd63a61"               
+                },
                 {
                   "name": "Atlantis",
                   "url": "https://storymaps.arcgis.com/stories/befb59591e9b4aff966abee0ffd5ba1b"               
@@ -616,9 +645,6 @@
               "url": "https://storymaps.arcgis.com/stories/27e760aad2a94861b6396e59846fc364"
             }
           ]
-        },
-        {
-          "name": "Science"
         }
       ]
     },
@@ -629,7 +655,9 @@
           "children":[
             {"name": "Historic"
             },
-            {"name": "Current"}
+            {"name": "Current",
+             "url": "https://storymaps.arcgis.com/stories/37200a8dc7f24c86bb872f40e3181d82" 
+            }
           ]
         },
         {"name": "Projection of Power",
@@ -847,7 +875,7 @@
               "children": [
                 {
                   "name": "Hurricanes",
-                  "url": "http://gohc.github.io/pages/natural_hazards/hurricanes/README.html"
+                  "url": "https://storymaps.arcgis.com/stories/8e0aef1bc308467dbc2ddb3c8aebb32f"
                 },
                 {
                   "name": "Sea Level Change"
@@ -858,15 +886,13 @@
                 },
                 {
                   "name": "Earthquakes",
-                  "url": "https://storymaps.arcgis.com/stories/f98e7091ec9f4de6abd792796737c66d"
+                  "url": "https://storymaps.arcgis.com/stories/8e0aef1bc308467dbc2ddb3c8aebb32f"
                 },
                 {
-                  "name": "Volcanoes",
-                  "url": "http://gohc.github.io/pages/natural_hazards/volcanoes/README.html"
+                  "name": "Volcanoes"
                 },
                 {
-                  "name": "Tsunamis",
-                  "url": "http://gohc.github.io/pages/natural_hazards/tsunamis/README.html"
+                  "name": "Tsunamis"
                 },
                 {
                   "name": "Ocean Deoxygenation"
@@ -902,7 +928,16 @@
       "name": "Oceans & Human Health",
       "children": [
         {
-          "name": "Place Holder"
+          "name": "The Oceans As A Resource",
+           "children": [
+            {
+            "name": "Surf n' Turf: Sustaible Eating",
+            "url": "https://storymaps.arcgis.com/stories/4d3a7db4e1344bce9e02f3c2d08aa90d "
+            }
+          ]
+        },
+        {
+          "name": "Oceans and Disease"
         }
       ]
      },
@@ -910,7 +945,8 @@
       "name": "Alien Oceans",
       "children": [
         {
-          "name": "Looking for Life in Space"
+          "name": "Looking for Life in Space",
+          "url": "https://storymaps.arcgis.com/stories/0c016d280e664e259fc4f49b18bef616"
         },
         {
           "name": "Alien Oceans in Inner Space"
