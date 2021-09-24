@@ -5,35 +5,83 @@
     {
       "name": "Exponential Change",
       "children": [
-        {
-          "name": "Optical/Acoustic Comms"
-        },
-        {
-          "name": "Moore's Law"
-        },
-        {
-          "name": "Kurzweil Views",
-          "url": "https://storymaps.arcgis.com/stories/7e86910682e74d17a42a4f876d17cc10"
-        },
-        {
-          "name": "Artificial Intelligence"
-        },
-        {
-          "name": "Nanotech"
-        },
-        {
-          "name": "Genomic Revolution"
-        },
-        {
-          "name": "Marine Robotic Future"
-        },
-        {
-          "name": "Orgobots Beyond Earth"
-        },
-        {
-          "name": "Multisensor AI-dominated Submersibles"
-        }
-      ]
+                { "name": "Documenting E.C.",
+                 "children": [
+                      {
+                      "name": "Kurzweil Views",
+                      "url": "https://storymaps.arcgis.com/stories/7e86910682e74d17a42a4f876d17cc10"
+                      },
+                      {"name": "Moore's Law"
+                      }
+                   ]
+                },
+                {"name": "Evolving Technology",
+                      "children": [
+                          { "name": "Agricultural Revolution"
+                          },
+                          {"name": "Industrial Revolution"
+                          },
+                          {"name": "Genomic Revolution"
+                          },
+                          {"name": "Computer Revolution"
+                          },
+                          {"name": "Living The Next Revolution?"
+                          }
+                      ]
+                  },
+                  {"name": "Artificial Intelligence",
+                      "children": [
+                          {"name": "Machine Learning"
+                          }
+                      ]
+                  },
+                  {"name": "Robotics and Research Vehicles",
+                      "children": [
+                          { "name": "Submersibles",
+                              "children": [
+                                  { "name": "ROVs"
+                                  },
+                                  {"name": "AUVs"
+                                  },
+                                  {"name": "Gliders"
+                                  },
+                                  {"name": "Manned Submarines"
+                                  }
+                              ]
+                          },
+                          {
+                          "name": "Rovers"
+                          },
+                          {"name": "Floats"
+                          }
+                      ]
+                  },
+                  {
+                    "name": "Big Data and Modelling"
+                  },
+                  {
+                    "name": "Nano and Bio Tech",
+                      "children": [
+                          { "name": "Nanomedicine"
+                          },
+                          {"name": "Biomimicry"
+                          }
+                      ]
+                  },
+                  {
+                    "name": "Connecting the World",
+                      "children": [
+                          { "name": "Fiber-Optic Cables"
+                          },
+                          {"name": "The Smart Ocean"
+                          }
+                      ]
+                  },
+                  {
+                    "name": "What Comes Next? "
+                  }
+              ]
+      
      },
     {
       "name": "Origins",
